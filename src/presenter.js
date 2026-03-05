@@ -1,4 +1,4 @@
-import { mostrarCantidad, mostrarPrecioUnitario } from "./ventas.js";
+import { mostrarCantidad, mostrarPrecioUnitario, mostrarPrecioNeto } from "./ventas.js";
 
 const cantidadInput = document.querySelector("#cantidad");
 const precioInput = document.querySelector("#precio");
@@ -11,6 +11,8 @@ botonTotalizar.addEventListener("click", () => {
 
     const cantidadValidada = mostrarCantidad(cantidad);
     const precioValidado = mostrarPrecioUnitario(precio);
+    
+    const precioNeto = mostrarPrecioNeto(cantidad, precio);
 
-    divResultado.innerHTML = `<p>${cantidadValidada} items ingresados, cada uno cuesta ${precioValidado} $</p>`;
+    divResultado.innerHTML = `<p>Precio neto (${cantidadValidada}*$${precioValidado}): $${precioNeto}</p>`;
 });

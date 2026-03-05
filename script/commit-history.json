@@ -361,12 +361,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "40ca13fd256da2fbc8d041c10451c5e40e4717d5",
     "author": "dahbner",
     "commit": {
       "date": "2026-03-05T13:57:42.000Z",
       "message": "fix: arreglando html",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/40ca13fd256da2fbc8d041c10451c5e40e4717d5"
     },
     "stats": {
       "total": 2,
@@ -376,6 +376,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-05T14:06:39.000Z",
+      "message": "feat: anadiendo la funcion para mostrar el precio neto",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 13,
+      "deletions": 3,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }
