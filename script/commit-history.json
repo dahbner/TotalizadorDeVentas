@@ -342,17 +342,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "25ae2dafd10a08cb6010c8243092e988e1c7a32e",
     "author": "dahbner",
     "commit": {
       "date": "2026-03-05T13:53:15.000Z",
       "message": "feat: anadiendo interfaz para TotalizadorDeVentas",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/25ae2dafd10a08cb6010c8243092e988e1c7a32e"
     },
     "stats": {
       "total": 31,
       "additions": 26,
       "deletions": 5,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-05T13:57:42.000Z",
+      "message": "fix: arreglando html",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2026-03-05"
     },
     "coverage": 100,

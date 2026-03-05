@@ -308,9 +308,15 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "25ae2dafd10a08cb6010c8243092e988e1c7a32e",
     "commitName": "feat: anadiendo interfaz para TotalizadorDeVentas",
     "commitTimestamp": 1772718796500,
     "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: arreglando html",
+    "commitTimestamp": 1772719062898,
+    "testId": 19
   }
 ]
