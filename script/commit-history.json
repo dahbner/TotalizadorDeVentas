@@ -1,0 +1,306 @@
+[
+  {
+    "sha": "bd17eb0b5dd61e42844f680958fedc42655ecf34",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-02T18:42:38.000Z",
+      "message": "feat: implementar punto del jugador 1 y mostrar 15-Love",
+      "url": "https://github.com/dahbner/Tennis-Score/commit/bd17eb0b5dd61e42844f680958fedc42655ecf34"
+    },
+    "stats": {
+      "total": 35448,
+      "additions": 26976,
+      "deletions": 8472,
+      "date": "2026-03-02"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "4161a1ff20933152b336bbb447e44f0540be3c93",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-02T18:46:15.000Z",
+      "message": "feat: marcador 15-love cuando el jugador 1 anota",
+      "url": "https://github.com/dahbner/Tennis-Score/commit/4161a1ff20933152b336bbb447e44f0540be3c93"
+    },
+    "stats": {
+      "total": 0,
+      "additions": 0,
+      "deletions": 0,
+      "date": "2026-03-02"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "8df476ee9a2ceeb67983f069528956756b96a6d2",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-02T18:50:25.000Z",
+      "message": "chore: actualizar dependencias para solucionar error de Github Actions",
+      "url": "https://github.com/dahbner/Tennis-Score/commit/8df476ee9a2ceeb67983f069528956756b96a6d2"
+    },
+    "stats": {
+      "total": 6698,
+      "additions": 4882,
+      "deletions": 1816,
+      "date": "2026-03-02"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "ff1ce6f28cd4dd580b6828e76b3f2465d1c048e1",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-02T18:52:29.000Z",
+      "message": "Fix: Sync package-lock.json with package.json",
+      "url": "https://github.com/dahbner/Tennis-Score/commit/ff1ce6f28cd4dd580b6828e76b3f2465d1c048e1"
+    },
+    "stats": {
+      "total": 1896,
+      "additions": 10,
+      "deletions": 1886,
+      "date": "2026-03-02"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "f466d7e7778f73e46d71e0381fc8c4e55f68962d",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-02T18:57:29.000Z",
+      "message": "Update package-lock.json to sync with package.json",
+      "url": "https://github.com/dahbner/Tennis-Score/commit/f466d7e7778f73e46d71e0381fc8c4e55f68962d"
+    },
+    "stats": {
+      "total": 46133,
+      "additions": 8349,
+      "deletions": 37784,
+      "date": "2026-03-02"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "d78735ac5f946748532527f4ae59b0fde5a1c365",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-02T19:04:52.000Z",
+      "message": "Update package-lock.json to sync with package.json",
+      "url": "https://github.com/dahbner/Tennis-Score/commit/d78735ac5f946748532527f4ae59b0fde5a1c365"
+    },
+    "stats": {
+      "total": 36235,
+      "additions": 13247,
+      "deletions": 22988,
+      "date": "2026-03-02"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "2a5261da0d8ee36d57ad401393d3488b1b6acc84",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-02T19:15:58.000Z",
+      "message": "feat: implementar 15-Love c8ando jugador 1 marca",
+      "url": "https://github.com/dahbner/Tennis-Score/commit/2a5261da0d8ee36d57ad401393d3488b1b6acc84"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 2,
+      "deletions": 1,
+      "date": "2026-03-02"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "343cc9be039505fd42f36d8cfeab84bfd6d778c3",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-02T19:18:35.000Z",
+      "message": "feat: marcador 15-15 cuando el jugador 2 marca",
+      "url": "https://github.com/dahbner/Tennis-Score/commit/343cc9be039505fd42f36d8cfeab84bfd6d778c3"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
+      "date": "2026-03-02"
+    },
+    "coverage": 100,
+    "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "c7f7da2acafb4af7377cce305b6ba67fa1e51f57",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-02T19:30:14.000Z",
+      "message": "feat: marcador 30-15 y 30-30",
+      "url": "https://github.com/dahbner/Tennis-Score/commit/c7f7da2acafb4af7377cce305b6ba67fa1e51f57"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-03-02"
+    },
+    "coverage": 100,
+    "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "8a816d2470b35b74c7d63b66c1ba4b0561f33dad",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-03T08:17:15.000Z",
+      "message": "feat: marcador 40-30 cuando el jugador 1 anota",
+      "url": "https://github.com/dahbner/Tennis-Score/commit/8a816d2470b35b74c7d63b66c1ba4b0561f33dad"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
+      "date": "2026-03-03"
+    },
+    "coverage": 100,
+    "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "9fd08878785416e6d738d7794585db834ccd2e4d",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-03T08:21:53.000Z",
+      "message": "feat: implementar regla especial para mostrar Deuce en empates de 40",
+      "url": "https://github.com/dahbner/Tennis-Score/commit/9fd08878785416e6d738d7794585db834ccd2e4d"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-03-03"
+    },
+    "coverage": 100,
+    "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "1c662a854ca69bc20517eba0849c967e0510c902",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-03T08:31:14.000Z",
+      "message": "feat: implementar regla para Advantage Player 1 despues del Deuce",
+      "url": "https://github.com/dahbner/Tennis-Score/commit/1c662a854ca69bc20517eba0849c967e0510c902"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-03-03"
+    },
+    "coverage": 100,
+    "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "308cfd5c7267f2908bb4d2d503bce13cdbc245d7",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-03T08:34:57.000Z",
+      "message": "feat: implementar regla Game for Player 1 para ganar el juego",
+      "url": "https://github.com/dahbner/Tennis-Score/commit/308cfd5c7267f2908bb4d2d503bce13cdbc245d7"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-03-03"
+    },
+    "coverage": 100,
+    "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "3fbbf146db67d70478e29701118f23d423826dc0",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-03T08:38:05.000Z",
+      "message": "feat: implementar regla para Advantage Player 2 despues del Deuce",
+      "url": "https://github.com/dahbner/Tennis-Score/commit/3fbbf146db67d70478e29701118f23d423826dc0"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 10,
+      "deletions": 2,
+      "date": "2026-03-03"
+    },
+    "coverage": 100,
+    "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "71e518d540b7e84180bd0222fd03dc18ad8def0d",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-03T08:40:59.000Z",
+      "message": "feat: implementar regla Game for Player 2",
+      "url": "https://github.com/dahbner/Tennis-Score/commit/71e518d540b7e84180bd0222fd03dc18ad8def0d"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-03-03"
+    },
+    "coverage": 100,
+    "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-03T08:50:11.000Z",
+      "message": "feat: bloquear botones al finalizar el juego y agregar boton de reiniciar",
+      "url": "https://github.com/dahbner/Tennis-Score/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2026-03-03"
+    },
+    "coverage": 100,
+    "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
