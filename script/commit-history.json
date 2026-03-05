@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cee9a8fc88c06834fdc3df1c4d2d48282329b2ee",
     "author": "dahbner",
     "commit": {
       "date": "2026-03-03T08:50:11.000Z",
       "message": "feat: bloquear botones al finalizar el juego y agregar boton de reiniciar",
-      "url": "https://github.com/dahbner/Tennis-Score/commit/HEAD"
+      "url": "https://github.com/dahbner/Tennis-Score/commit/cee9a8fc88c06834fdc3df1c4d2d48282329b2ee"
     },
     "stats": {
       "total": 15,
@@ -300,6 +300,25 @@
     },
     "coverage": 100,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-05T13:31:05.000Z",
+      "message": "feat: mostrar en pantalla la cantidad ingresada",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 1,
     "failed_tests": 0,
     "conclusion": "success"
   }
