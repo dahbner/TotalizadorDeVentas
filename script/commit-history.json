@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a64be975e9e340c7e21a40789ee46950157bb3e4",
     "author": "dahbner",
     "commit": {
       "date": "2026-03-05T13:31:05.000Z",
       "message": "feat: mostrar en pantalla la cantidad ingresada",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/a64be975e9e340c7e21a40789ee46950157bb3e4"
     },
     "stats": {
       "total": 13,
@@ -319,6 +319,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-05T13:43:47.000Z",
+      "message": "feat: mostrar precio unitario del item",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 31,
+      "additions": 30,
+      "deletions": 1,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
   }

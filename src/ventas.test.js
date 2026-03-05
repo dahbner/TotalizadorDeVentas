@@ -1,7 +1,12 @@
-import {mostrarCantidad} from "./ventas.js";
+import {mostrarCantidad, mostrarPrecioUnitario} from "./ventas.js";
 
 describe("Totalizador Ventas", () => {
   it("deberia mostrar la cantidad de items ingresada", () => {
     expect(mostrarCantidad(20)).toEqual(20);
   });
+
+  it("deberia mostrar el precio unitario del item", () => {
+    expect(mostrarPrecioUnitario(7)).toEqual(7);
+  });
+
 });
