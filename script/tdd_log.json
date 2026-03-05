@@ -302,9 +302,15 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c04339fd215aded0d93c6f90dd68b0e434bb061b",
     "commitName": "feat: mostrar precio unitario del item",
     "commitTimestamp": 1772718227813,
     "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: anadiendo interfaz para TotalizadorDeVentas",
+    "commitTimestamp": 1772718796500,
+    "testId": 18
   }
 ]

@@ -323,17 +323,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c04339fd215aded0d93c6f90dd68b0e434bb061b",
     "author": "dahbner",
     "commit": {
       "date": "2026-03-05T13:43:47.000Z",
       "message": "feat: mostrar precio unitario del item",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/c04339fd215aded0d93c6f90dd68b0e434bb061b"
     },
     "stats": {
       "total": 31,
       "additions": 30,
       "deletions": 1,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-05T13:53:15.000Z",
+      "message": "feat: anadiendo interfaz para TotalizadorDeVentas",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 31,
+      "additions": 26,
+      "deletions": 5,
       "date": "2026-03-05"
     },
     "coverage": 100,
