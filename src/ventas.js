@@ -17,4 +17,5 @@ export function mostrarImpuesto(estado){
     if(estado === "CA") return 8.25;
     if(estado === "AL") return 4.00;
     if(estado === "NV") return 8.00;
+    if(estado === "UT") return 6.65;
 }

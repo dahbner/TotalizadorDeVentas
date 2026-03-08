@@ -26,4 +26,8 @@ describe("Totalizador Ventas", () => {
     expect(mostrarImpuesto("NV")).toEqual(8.00);
   });
 
+  it("deberia mostrar el procentaje de impuesto para UT", () => {
+    expect(mostrarImpuesto("UT")).toEqual(6.65);
+  });
+
 });
