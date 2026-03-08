@@ -1,4 +1,4 @@
-import {mostrarCantidad, mostrarPrecioNeto, mostrarPrecioUnitario} from "./ventas.js";
+import {mostrarCantidad, mostrarPrecioNeto, mostrarPrecioUnitario, mostrarImpuesto} from "./ventas.js";
 
 describe("Totalizador Ventas", () => {
   it("deberia mostrar la cantidad de items ingresada", () => {
@@ -11,6 +11,11 @@ describe("Totalizador Ventas", () => {
 
   it("deberia mostrar el precio neto", () => {
     expect(mostrarPrecioNeto(10, 7)).toEqual(70);
+  });
+
+  //impuestos
+  it("deberia mostrar el procentaje de impuesto para CA", () => {
+    expect(mostrarImpuesto("CA")).toEqual(8.25);
   });
 
 });

@@ -380,12 +380,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5de022211e876550f5cae421a99ebe772d189328",
     "author": "dahbner",
     "commit": {
       "date": "2026-03-05T14:06:39.000Z",
       "message": "feat: anadiendo la funcion para mostrar el precio neto",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/5de022211e876550f5cae421a99ebe772d189328"
     },
     "stats": {
       "total": 16,
@@ -395,6 +395,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Flora",
+    "commit": {
+      "date": "2026-03-08T19:53:56.000Z",
+      "message": "feat: mostrar impuesto estado CA",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }

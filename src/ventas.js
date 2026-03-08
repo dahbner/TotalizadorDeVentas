@@ -12,3 +12,7 @@ export function mostrarPrecioNeto(cantidad, precioUnitario)
 {
    return cantidad * precioUnitario;
 }
+
+export function mostrarImpuesto(estado){
+    if(estado === "CA") return 8.25;
+}

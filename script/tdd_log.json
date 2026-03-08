@@ -336,9 +336,39 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5de022211e876550f5cae421a99ebe772d189328",
     "commitName": "feat: anadiendo la funcion para mostrar el precio neto",
     "commitTimestamp": 1772719599536,
     "testId": 20
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1772999532462,
+    "success": false,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1772999579862,
+    "success": false,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1772999606465,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar impuesto estado CA",
+    "commitTimestamp": 1772999640527,
+    "testId": 21
   }
 ]
