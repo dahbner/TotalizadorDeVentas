@@ -20,3 +20,7 @@ export function mostrarImpuesto(estado){
     if(estado === "UT") return 6.65;
     if(estado === "TX") return 6.25;
 }
+
+export function calcularImpuesto(precioNeto, estado){
+    if(estado === "CA") return precioNeto * 0.0825;
+}

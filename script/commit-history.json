@@ -475,12 +475,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d19518ce8c84185456408f90051a1f34b760c7ad",
     "author": "Flora",
     "commit": {
       "date": "2026-03-08T20:03:58.000Z",
       "message": "feat: mostrar impuesto estado TX",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/d19518ce8c84185456408f90051a1f34b760c7ad"
     },
     "stats": {
       "total": 8,
@@ -490,6 +490,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Flora",
+    "commit": {
+      "date": "2026-03-08T22:02:29.000Z",
+      "message": "feat: calcular impuesto para CA",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 9,
+      "deletions": 5,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }

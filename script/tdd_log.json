@@ -454,9 +454,31 @@
     "testId": 25
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d19518ce8c84185456408f90051a1f34b760c7ad",
     "commitName": "feat: mostrar impuesto estado TX",
     "commitTimestamp": 1773000240405,
     "testId": 25
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1773007099906,
+    "success": false,
+    "testId": 26
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1773007265621,
+    "success": true,
+    "testId": 26
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto para CA",
+    "commitTimestamp": 1773007351368,
+    "testId": 26
   }
 ]
