@@ -432,9 +432,31 @@
     "testId": 24
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e7b7b108da04847687a521be71198529f1574347",
     "commitName": "feat: mostrar impuesto estado UT",
     "commitTimestamp": 1773000158048,
     "testId": 24
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1773000209146,
+    "success": false,
+    "testId": 25
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1773000230855,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar impuesto estado TX",
+    "commitTimestamp": 1773000240405,
+    "testId": 25
   }
 ]

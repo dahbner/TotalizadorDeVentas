@@ -456,12 +456,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e7b7b108da04847687a521be71198529f1574347",
     "author": "Flora",
     "commit": {
       "date": "2026-03-08T20:02:36.000Z",
       "message": "feat: mostrar impuesto estado UT",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/e7b7b108da04847687a521be71198529f1574347"
     },
     "stats": {
       "total": 5,
@@ -471,6 +471,25 @@
     },
     "coverage": 100,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Flora",
+    "commit": {
+      "date": "2026-03-08T20:03:58.000Z",
+      "message": "feat: mostrar impuesto estado TX",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }
