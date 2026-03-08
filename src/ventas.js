@@ -23,4 +23,5 @@ export function mostrarImpuesto(estado){
 
 export function calcularImpuesto(precioNeto, estado){
     if(estado === "CA") return precioNeto * 0.0825;
+    if(estado === "AL") return precioNeto * 0.04;
 }

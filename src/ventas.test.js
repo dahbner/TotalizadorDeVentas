@@ -34,5 +34,8 @@ describe("Totalizador Ventas", () => {
   it("deberia calcular el impuesto para CA", () => {
     expect(calcularImpuesto(60, "CA")).toEqual(4.95);
   });
+  it("deberia calcular el impuesto para AL", () => {
+    expect(calcularImpuesto(100, "AL")).toEqual(4.00);
+  });
 
 });
