@@ -513,12 +513,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3fb334ed073b8a7922d7c9f840799dca7005e583",
     "author": "Flora",
     "commit": {
       "date": "2026-03-08T22:08:41.000Z",
       "message": "feat: calcular impuesto para AL",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/3fb334ed073b8a7922d7c9f840799dca7005e583"
     },
     "stats": {
       "total": 4,
@@ -528,6 +528,25 @@
     },
     "coverage": 100,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Flora",
+    "commit": {
+      "date": "2026-03-08T22:11:53.000Z",
+      "message": "feat: calcular impuesto para NV",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }
