@@ -388,9 +388,31 @@
     "testId": 22
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fb0bb5abe9e5d8a0f7ef177c63110b8b29dc2b88",
     "commitName": "feat: mostrar impuesto estado AL",
     "commitTimestamp": 1772999879120,
     "testId": 22
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1772999923122,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1772999945905,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar impuesto estado NV",
+    "commitTimestamp": 1772999956278,
+    "testId": 23
   }
 ]
