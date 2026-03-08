@@ -366,9 +366,31 @@
     "testId": 21
   },
   {
-    "commitId": "HEAD",
+    "commitId": "37172d454dddd65409dc66c600f911df47bed131",
     "commitName": "feat: mostrar impuesto estado CA",
     "commitTimestamp": 1772999640527,
     "testId": 21
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1772999848277,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1772999867497,
+    "success": true,
+    "testId": 22
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar impuesto estado AL",
+    "commitTimestamp": 1772999879120,
+    "testId": 22
   }
 ]

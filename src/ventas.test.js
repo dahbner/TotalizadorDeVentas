@@ -18,4 +18,8 @@ describe("Totalizador Ventas", () => {
     expect(mostrarImpuesto("CA")).toEqual(8.25);
   });
 
+  it("deberia mostrar el procentaje de impuesto para AL", () => {
+    expect(mostrarImpuesto("AL")).toEqual(4.00);
+  });
+
 });

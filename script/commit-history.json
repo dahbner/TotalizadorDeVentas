@@ -399,12 +399,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "37172d454dddd65409dc66c600f911df47bed131",
     "author": "Flora",
     "commit": {
       "date": "2026-03-08T19:53:56.000Z",
       "message": "feat: mostrar impuesto estado CA",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/37172d454dddd65409dc66c600f911df47bed131"
     },
     "stats": {
       "total": 11,
@@ -414,6 +414,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Flora",
+    "commit": {
+      "date": "2026-03-08T19:57:57.000Z",
+      "message": "feat: mostrar impuesto estado AL",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }
