@@ -542,9 +542,23 @@
     "testId": 29
   },
   {
-    "commitId": "HEAD",
+    "commitId": "29b5490b9e869f6f736f1c399961563cae700669",
     "commitName": "feat: calcular impuesto para UT",
     "commitTimestamp": 1773007986095,
     "testId": 29
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1773008442684,
+    "success": true,
+    "testId": 30
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: incremento html",
+    "commitTimestamp": 1773008490828,
+    "testId": 30
   }
 ]
