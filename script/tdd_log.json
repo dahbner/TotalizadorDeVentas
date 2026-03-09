@@ -754,9 +754,23 @@
     "testId": 38
   },
   {
-    "commitId": "HEAD",
+    "commitId": "04d9e0196d168d8886231a43cefbcd791c2035b0",
     "commitName": "feat: mostrar 10% de descuento para el precio mayor o igual a 10000",
     "commitTimestamp": 1773037126983,
     "testId": 39
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1773037227491,
+    "success": true,
+    "testId": 40
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular 15% de descuento para el precio mayor o igual a 30000",
+    "commitTimestamp": 1773037265924,
+    "testId": 40
   }
 ]
