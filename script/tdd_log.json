@@ -726,9 +726,31 @@
     "testId": 36
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4dc83c441d0fd1c41d5aa1a5d11384636a74ac2a",
     "commitName": "feat: mostrar 7% de descuento para el precio mayor o igual a 7000",
     "commitTimestamp": 1773036807806,
     "testId": 37
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1773036979629,
+    "success": true,
+    "testId": 38
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1773036987946,
+    "success": true,
+    "testId": 38
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular 10% de descuento para el precio mayor o igual a 10000",
+    "commitTimestamp": 1773037018636,
+    "testId": 38
   }
 ]
