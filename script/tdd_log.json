@@ -706,9 +706,23 @@
     "testId": 35
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7542a6b5ea289e990368cf92d68efb3336e02ba0",
     "commitName": "fix: anadiendo toFixed al calculo del descuento",
     "commitTimestamp": 1773036616783,
     "testId": 35
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1773036659298,
+    "success": true,
+    "testId": 36
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular 7% de descuento para el precio mayor o igual a 7000",
+    "commitTimestamp": 1773036771607,
+    "testId": 36
   }
 ]

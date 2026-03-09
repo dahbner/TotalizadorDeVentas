@@ -56,4 +56,7 @@ describe("Totalizador Ventas", () => {
     expect(calcularDescuento(3000)).toEqual(150); 
   });
 
+  it("deberia calcular 7% de descuento si el precio neto es mayor o igual a 7000", () => {
+    expect(calcularDescuento(7000)).toEqual(490); 
+  });
 });
