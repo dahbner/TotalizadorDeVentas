@@ -10,14 +10,14 @@ botonTotalizar.addEventListener("click", () => {
     const cantidad = Number(cantidadInput.value);
     const precio = Number(precioInput.value);
     const estado = estadoInput.value;
-    const impuesto = calcularImpuesto(precioNeto, estado);
-    const porcentaje = mostrarImpuesto(estado);
-    const total = precioNeto + impuesto;
 
     const cantidadValidada = mostrarCantidad(cantidad);
     const precioValidado = mostrarPrecioUnitario(precio);
-    
     const precioNeto = mostrarPrecioNeto(cantidad, precio);
+
+    const impuesto = calcularImpuesto(precioNeto, estado);
+    const porcentaje = mostrarImpuesto(estado);
+    const total = precioNeto + impuesto;
 
     divResultado.innerHTML = `<p>Precio neto (${cantidadValidada}*$${precioValidado}): $${precioNeto}</p>
     <p>Impuesto para ${estado} (%${porcentaje}): $${impuesto.toFixed(2)}</p>
