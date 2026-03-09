@@ -16,7 +16,14 @@ botonTotalizar.addEventListener("click", () => {
     const precioNeto = mostrarPrecioNeto(cantidad, precio);
 
     const descuento = calcularDescuento(precioNeto);
-    const porcentajeDescuento = descuento > 0 ? 3 : 0
+
+    let porcentajeDescuento = 0;
+    if (precioNeto >= 3000) {
+        porcentajeDescuento = 5;
+    } else if (precioNeto >= 1000) {
+        porcentajeDescuento = 3;
+    }
+
     const precioConDescuento = precioNeto - descuento;
 
     const impuesto = calcularImpuesto(precioConDescuento, estado);
