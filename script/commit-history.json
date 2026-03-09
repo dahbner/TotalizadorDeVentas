@@ -646,17 +646,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0c4e605211a3e72f8bab588c2fd0bbee97285a9d",
     "author": "dahbner",
     "commit": {
       "date": "2026-03-09T06:02:55.000Z",
       "message": "feat: mostrar 5% de descuento para el precio mayor o igual a 3000",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/0c4e605211a3e72f8bab588c2fd0bbee97285a9d"
     },
     "stats": {
       "total": 9,
       "additions": 8,
       "deletions": 1,
+      "date": "2026-03-09"
+    },
+    "coverage": 100,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-09T06:10:15.000Z",
+      "message": "fix: anadiendo toFixed al calculo del descuento",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 4,
+      "deletions": 2,
       "date": "2026-03-09"
     },
     "coverage": 100,

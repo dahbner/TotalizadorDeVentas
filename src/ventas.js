@@ -29,11 +29,12 @@ export function calcularImpuesto(precioNeto, estado){
 }
 
 export function calcularDescuento(precioNeto) {
+
     if (precioNeto >= 3000) {
-        return precioNeto * 0.05;
+        return Number((precioNeto * 0.05).toFixed(2));
     }
     if (precioNeto >= 1000) {
-        return precioNeto * 0.03;
+        return Number((precioNeto * 0.03).toFixed(2));
     }
     return 0;
 }
