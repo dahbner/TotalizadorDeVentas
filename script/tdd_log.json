@@ -720,9 +720,15 @@
     "testId": 36
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d3385a71547db757398352fc7fe454d6ab12db26",
     "commitName": "feat: calcular 7% de descuento para el precio mayor o igual a 7000",
     "commitTimestamp": 1773036771607,
     "testId": 36
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar 7% de descuento para el precio mayor o igual a 7000",
+    "commitTimestamp": 1773036807806,
+    "testId": 37
   }
 ]
