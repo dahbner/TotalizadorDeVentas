@@ -27,3 +27,10 @@ export function calcularImpuesto(precioNeto, estado){
     if(estado === "NV") return precioNeto * 0.08;
     if(estado === "UT") return precioNeto * 0.0665;
 }
+
+export function calcularDescuento(precioNeto) {
+    if (precioNeto >= 1000) {
+        return precioNeto * 0.03;
+    }
+    return 0;
+}

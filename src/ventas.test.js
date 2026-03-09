@@ -1,4 +1,4 @@
-import {mostrarCantidad, mostrarPrecioNeto, mostrarPrecioUnitario, mostrarImpuesto, calcularImpuesto} from "./ventas.js";
+import {mostrarCantidad, mostrarPrecioNeto, mostrarPrecioUnitario, mostrarImpuesto, calcularImpuesto, calcularDescuento} from "./ventas.js";
 
 describe("Totalizador Ventas", () => {
   it("deberia mostrar la cantidad de items ingresada", () => {
@@ -42,5 +42,13 @@ describe("Totalizador Ventas", () => {
   });
   it("deberia calcular el impuesto para UT", () => {
     expect(calcularImpuesto(100, "UT")).toEqual(6.65);
+  });
+
+  //Calcular descuentos
+  it("deberia calcular 0 de descuento si el precio neto es menor a 1000", () => {
+    expect(calcularDescuento(999)).toEqual(0);
+  });
+  it("deberia calcular 3% de descuento si el precio neto es mayor o igual a 1000", () => {
+    expect(calcularDescuento(1000)).toEqual(30); 
   });
 });

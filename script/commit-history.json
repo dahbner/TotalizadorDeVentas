@@ -589,12 +589,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "dc85b36a39b10dcff0765e54201aef29d8cebe22",
     "author": "dahbner",
     "commit": {
       "date": "2026-03-09T05:02:30.000Z",
       "message": "fix: error en el orden de las variables de presenter y select option para el html",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/dc85b36a39b10dcff0765e54201aef29d8cebe22"
     },
     "stats": {
       "total": 16,
@@ -604,6 +604,25 @@
     },
     "coverage": 100,
     "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-09T05:55:07.000Z",
+      "message": "feat: calcular 3% de descuento para el precio mayor o igual a 1000",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 35,
+      "additions": 28,
+      "deletions": 7,
+      "date": "2026-03-09"
+    },
+    "coverage": 100,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }

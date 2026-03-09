@@ -562,9 +562,63 @@
     "testId": 30
   },
   {
-    "commitId": "HEAD",
+    "commitId": "dc85b36a39b10dcff0765e54201aef29d8cebe22",
     "commitName": "fix: error en el orden de las variables de presenter y select option para el html",
     "commitTimestamp": 1773032551307,
     "testId": 31
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1773032577253,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 2,
+    "numTotalTests": 14,
+    "timestamp": 1773034925070,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 2,
+    "numTotalTests": 14,
+    "timestamp": 1773034969557,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 2,
+    "numTotalTests": 14,
+    "timestamp": 1773035004518,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1773035018671,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1773035393245,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular 3% de descuento para el precio mayor o igual a 1000",
+    "commitTimestamp": 1773035708605,
+    "testId": 32
   }
 ]
