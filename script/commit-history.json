@@ -760,17 +760,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "03fe6e54fa0cd02c2eae39b0b69bc49d6821b179",
     "author": "dahbner",
     "commit": {
       "date": "2026-03-09T06:21:04.000Z",
       "message": "feat: calcular 15% de descuento para el precio mayor o igual a 30000",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/03fe6e54fa0cd02c2eae39b0b69bc49d6821b179"
     },
     "stats": {
       "total": 8,
       "additions": 8,
       "deletions": 0,
+      "date": "2026-03-09"
+    },
+    "coverage": 100,
+    "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-09T06:23:02.000Z",
+      "message": "feat: mostrar 15% de descuento para el precio mayor o igual a 30000",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 3,
+      "deletions": 1,
       "date": "2026-03-09"
     },
     "coverage": 100,

@@ -18,7 +18,9 @@ botonTotalizar.addEventListener("click", () => {
     const descuento = calcularDescuento(precioNeto);
 
     let porcentajeDescuento = 0;
-    if (precioNeto >= 10000) {
+    if (precioNeto >= 30000) {
+        porcentajeDescuento = 15;
+    } else if (precioNeto >= 10000) {
         porcentajeDescuento = 10;
     } else if (precioNeto >= 7000) {
         porcentajeDescuento = 7;
