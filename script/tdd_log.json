@@ -1468,9 +1468,23 @@
     "testId": 74
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ea6bb002bbb816f94975c97b0217aa56e1f09213",
     "commitName": "feat: aplicar descuento fijo de 200",
     "commitTimestamp": 1773141479993,
     "testId": 74
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 0,
+    "numTotalTests": 52,
+    "timestamp": 1773141639908,
+    "success": true,
+    "testId": 75
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: incremento presenter",
+    "commitTimestamp": 1773141776192,
+    "testId": 75
   }
 ]

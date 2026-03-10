@@ -1406,17 +1406,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ea6bb002bbb816f94975c97b0217aa56e1f09213",
     "author": "Flora",
     "commit": {
       "date": "2026-03-10T11:17:58.000Z",
       "message": "feat: aplicar descuento fijo de 200",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/ea6bb002bbb816f94975c97b0217aa56e1f09213"
     },
     "stats": {
       "total": 9,
       "additions": 9,
       "deletions": 0,
+      "date": "2026-03-10"
+    },
+    "coverage": 98.78,
+    "test_count": 52,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Flora",
+    "commit": {
+      "date": "2026-03-10T11:22:54.000Z",
+      "message": "feat: incremento presenter",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 7,
+      "deletions": 2,
       "date": "2026-03-10"
     },
     "coverage": 98.78,

@@ -1,4 +1,6 @@
-import { mostrarCantidad, mostrarPrecioUnitario, mostrarPrecioNeto, calcularImpuesto, mostrarImpuesto, calcularDescuento, mostrarDescuento, calcularPrecioTotal, mostrarImpuestoCategoria, mostrarDescuentoCategoria, mostrarCostoEnvio, calcularCostoEnvio, calcularPrecioConDescuento, calcularCostoEnvioFinal } from "./ventas.js";
+import { mostrarCantidad, mostrarPrecioUnitario, mostrarPrecioNeto, calcularImpuesto, mostrarImpuesto, calcularDescuento, mostrarDescuento, calcularPrecioTotal, 
+    mostrarImpuestoCategoria, mostrarDescuentoCategoria, mostrarCostoEnvio, calcularCostoEnvio, calcularPrecioConDescuento, 
+    calcularCostoEnvioFinal, calcularDescuentoFijo } from "./ventas.js";
 
 const cantidadInput = document.querySelector("#cantidad");
 const precioInput = document.querySelector("#precio");
@@ -34,8 +36,10 @@ botonTotalizar.addEventListener("click", () => {
     const costoEnvioUnitario = mostrarCostoEnvio(peso);
     const costoEnvioBase = calcularCostoEnvio(peso, cantidad);
     const costoEnvioFinal = calcularCostoEnvioFinal(costoEnvioBase, cliente);
+
+    const descuentoCliente = calcularDescuentoFijo(precioNeto, cliente, categoria);
     
-    const total = calcularPrecioTotal(precioNeto, impuesto, descuento, costoEnvioFinal);
+    const total = calcularPrecioTotal(precioNeto, impuesto, descuento + descuentoCliente, costoEnvioFinal);
 
     divResultado.innerHTML = `
         <p>Tipo de Cliente: ${cliente}</p>
@@ -46,5 +50,6 @@ botonTotalizar.addEventListener("click", () => {
         <p>Costo envio por unidad (Peso: ${peso}): $${costoEnvioUnitario}</p>
         <p>Costo envio base (Total por ${cantidadValidada} unidades): $${costoEnvioBase}</p>
         <p>Costo envio final (con descuento de cliente): $${costoEnvioFinal}</p>
+        <p>Descuento especial cliente: $${descuentoCliente}</p>
         <p>Precio total (descuento, impuesto y envío): $${total.toFixed(2)}</p>`;
 });
