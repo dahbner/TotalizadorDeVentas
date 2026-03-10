@@ -107,5 +107,8 @@ export function mostrarDescuentoEnvioCliente(tipoCliente) {
     if (tipoCliente === "Antiguo Recurrente") {
         return 1;
     }
+    if (tipoCliente === "Especial") {
+        return 1.5;
+    }
     return 0;
 }

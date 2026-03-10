@@ -180,4 +180,8 @@ it("deberia calcular el precio total con descuento e impuesto", () => {
   it("deberia mostrar 1% de descuento en envio para cliente Antiguo Recurrente", () => {
     expect(mostrarDescuentoEnvioCliente("Antiguo Recurrente")).toEqual(1);
   });
+
+  it("deberia mostrar 1.5% de descuento en envio para cliente Especial", () => {
+    expect(mostrarDescuentoEnvioCliente("Especial")).toEqual(1.5);
+  });
 });

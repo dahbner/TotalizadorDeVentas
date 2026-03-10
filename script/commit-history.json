@@ -1311,12 +1311,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5ab9330ca1eecb3a33f7b522a4530ca16942e379",
     "author": "dahbner",
     "commit": {
       "date": "2026-03-10T10:36:27.000Z",
       "message": "feat: mostrar 1% de descuento en el costo del envio para cliente antiguo recurrente",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/5ab9330ca1eecb3a33f7b522a4530ca16942e379"
     },
     "stats": {
       "total": 7,
@@ -1326,6 +1326,25 @@
     },
     "coverage": 98.61,
     "test_count": 46,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-10T10:38:47.000Z",
+      "message": "feat: mostrar 1,5% de descuento en el costo del envio para cliente especial",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-03-10"
+    },
+    "coverage": 98.65,
+    "test_count": 47,
     "failed_tests": 0,
     "conclusion": "success"
   }
