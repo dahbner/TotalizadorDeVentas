@@ -121,4 +121,8 @@ describe("Totalizador Ventas", () => {
   it("deberia mostrar 1.5% de descuento adicional para Material de escritorio", () => {
     expect(mostrarDescuentoCategoria("Material de escritorio")).toEqual(1.5);
   });
+
+  it("deberia mostrar 1% de descuento adicional para Electronicos", () => {
+    expect(mostrarDescuentoCategoria("Electronicos")).toEqual(1);
+  });
 });

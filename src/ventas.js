@@ -88,5 +88,9 @@ export function mostrarDescuentoCategoria(categoria) {
     if (categoria === "Material de escritorio") {
         return 1.5;
     }
+
+    if (categoria === "Electronicos") {
+        return 1;
+    }
     return 0;
 }
