@@ -946,9 +946,23 @@
     "testId": 47
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9b63b586dbace559c56f4988a11c0067f0c2413a",
     "commitName": "feat: mostrar impuesto adicional 7% para la categoria Bebidas Alcoholicas",
     "commitTimestamp": 1773133474158,
     "testId": 47
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1773133585974,
+    "success": true,
+    "testId": 48
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar impuesto adicional 3% para la categoria Muebles",
+    "commitTimestamp": 1773133606805,
+    "testId": 48
   }
 ]

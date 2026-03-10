@@ -68,6 +68,8 @@ export function mostrarImpuestoCategoria(categoria) {
     if (categoria === "Bebidas alcoholicas") {
         return 7;
     }
+    if (categoria === "Muebles") {
+        return 3;
+    }
     return 0;
 }
-

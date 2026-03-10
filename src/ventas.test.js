@@ -100,4 +100,8 @@ describe("Totalizador Ventas", () => {
   it("deberia mostrar 7% de impuesto adicional para Bebidas alcoholicas", () => {
     expect(mostrarImpuestoCategoria("Bebidas alcoholicas")).toEqual(7);
   });
+
+  it("deberia mostrar 3% de impuesto adicional para Muebles", () => {
+    expect(mostrarImpuestoCategoria("Muebles")).toEqual(3);
+  });
 });
