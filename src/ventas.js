@@ -155,3 +155,4 @@ export function calcularDescuentoFijo(precioNeto, tipoCliente, categoria) {
 export function calcularPrecioTotal(precioNeto, impuesto, descuento, costoEnvio) {
     return precioNeto + impuesto - descuento + costoEnvio;
 }
+
