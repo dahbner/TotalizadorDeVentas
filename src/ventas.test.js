@@ -1,7 +1,7 @@
 import {mostrarCantidad, mostrarPrecioNeto, mostrarPrecioUnitario, 
   mostrarImpuesto, calcularImpuesto, calcularDescuento, mostrarDescuento, 
   calcularPrecioTotal, mostrarImpuestoCategoria, mostrarDescuentoCategoria, 
-  mostrarCostoEnvio} from "./ventas.js";
+  mostrarCostoEnvio, calcularCostoEnvio} from "./ventas.js";
 
 describe("Totalizador Ventas", () => {
   it("deberia mostrar la cantidad de items ingresada", () => {
@@ -159,5 +159,9 @@ describe("Totalizador Ventas", () => {
   });
   it("deberia mostrar $9 de envio si el peso es mayor a 200", () => {
     expect(mostrarCostoEnvio(250)).toEqual(9);
+  });
+
+  it("deberia calcular el costo total de envio multiplicando cantidad por costo unitario", () => {
+    expect(calcularCostoEnvio(11, 1, 3.5)).toEqual(3.5);
   });
 });

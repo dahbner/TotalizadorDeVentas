@@ -79,6 +79,11 @@ export function mostrarCostoEnvio(peso){
     if (peso > 200) return 9;
 }
 
+export function calcularCostoEnvio(peso, cantidad, costoEnvio) {
+    const costoUnitario = mostrarCostoEnvio(peso);
+    return cantidad * costoUnitario;
+}
+
 export function calcularImpuesto(precioConDescuento, estado, categoria) {
     const porcentajeEstado = mostrarImpuesto(estado);
     const porcentajeAdicional = mostrarImpuestoCategoria(categoria);

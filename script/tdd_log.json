@@ -1228,9 +1228,47 @@
     "testId": 62
   },
   {
-    "commitId": "HEAD",
+    "commitId": "37beaf1e3dd9628a062f0a3347f0a5aa56331469",
     "commitName": "feat: mostrar costo de envio cuando peso sea mayor a 200",
     "commitTimestamp": 1773136707824,
     "testId": 62
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 1,
+    "numTotalTests": 43,
+    "timestamp": 1773136792146,
+    "success": false,
+    "testId": 63
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 1,
+    "numTotalTests": 43,
+    "timestamp": 1773136938761,
+    "success": false,
+    "testId": 63
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 1,
+    "numTotalTests": 43,
+    "timestamp": 1773136964051,
+    "success": false,
+    "testId": 63
+  },
+  {
+    "numPassedTests": 43,
+    "failedTests": 0,
+    "numTotalTests": 43,
+    "timestamp": 1773137000362,
+    "success": true,
+    "testId": 63
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar costo de envio total",
+    "commitTimestamp": 1773137022745,
+    "testId": 63
   }
 ]

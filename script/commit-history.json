@@ -1178,12 +1178,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "37beaf1e3dd9628a062f0a3347f0a5aa56331469",
     "author": "Flora",
     "commit": {
       "date": "2026-03-10T09:58:25.000Z",
       "message": "feat: mostrar costo de envio cuando peso sea mayor a 200",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/37beaf1e3dd9628a062f0a3347f0a5aa56331469"
     },
     "stats": {
       "total": 4,
@@ -1193,6 +1193,25 @@
     },
     "coverage": 100,
     "test_count": 42,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Flora",
+    "commit": {
+      "date": "2026-03-10T10:03:41.000Z",
+      "message": "feat: mostrar costo de envio total",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-03-10"
+    },
+    "coverage": 100,
+    "test_count": 43,
     "failed_tests": 0,
     "conclusion": "success"
   }
