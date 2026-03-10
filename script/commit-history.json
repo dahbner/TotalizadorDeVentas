@@ -1539,12 +1539,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "be54e54665e4bb56e7bdf1e190c97bcb11da9604",
     "author": "Flora",
     "commit": {
       "date": "2026-03-10T11:33:36.000Z",
       "message": "refactor: validacion peso ingresado",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/be54e54665e4bb56e7bdf1e190c97bcb11da9604"
     },
     "stats": {
       "total": 3,
@@ -1556,5 +1556,24 @@
     "test_count": 56,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Flora",
+    "commit": {
+      "date": "2026-03-10T11:41:39.000Z",
+      "message": "refactor: condicion validaciones",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 4,
+      "deletions": 4,
+      "date": "2026-03-10"
+    },
+    "coverage": 94.51,
+    "test_count": 56,
+    "failed_tests": 1,
+    "conclusion": "failure"
   }
 ]

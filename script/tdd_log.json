@@ -1622,9 +1622,23 @@
     "testId": 81
   },
   {
-    "commitId": "HEAD",
+    "commitId": "be54e54665e4bb56e7bdf1e190c97bcb11da9604",
     "commitName": "refactor: validacion peso ingresado",
     "commitTimestamp": 1773142418255,
     "testId": 81
+  },
+  {
+    "numPassedTests": 56,
+    "failedTests": 0,
+    "numTotalTests": 56,
+    "timestamp": 1773142535462,
+    "success": true,
+    "testId": 82
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: condicion validaciones",
+    "commitTimestamp": 1773142900534,
+    "testId": 82
   }
 ]

@@ -15,21 +15,21 @@ export function mostrarPrecioNeto(cantidad, precioUnitario)
 
 //Validaciones
 export function validarCantidad(cantidad) {
-    if (cantidad < 0 || cantidad === "") {
+    if (isNaN(cantidad) || cantidad <= 0) {
         return "Cantidad invalida";
     } 
     return "";
 }
 
 export function validarPrecio(precio) {
-    if (precio < 0 || precio === "") {
+    if (isNaN(cantidad) || cantidad <= 0) {
         return "Precio invalido";
     }
     return "";
 }
 
 export function validarPeso(peso) {
-    if (peso < 0 || peso === "") {
+    if (isNaN(peso) || peso < 0) {
         return "Peso invalido";
     }
     return "";

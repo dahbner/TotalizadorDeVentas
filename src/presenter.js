@@ -1,6 +1,6 @@
 import { mostrarCantidad, mostrarPrecioUnitario, mostrarPrecioNeto, calcularImpuesto, mostrarImpuesto, calcularDescuento, mostrarDescuento, calcularPrecioTotal, 
     mostrarImpuestoCategoria, mostrarDescuentoCategoria, mostrarCostoEnvio, calcularCostoEnvio, calcularPrecioConDescuento, 
-    calcularCostoEnvioFinal, calcularDescuentoFijo } from "./ventas.js";
+    calcularCostoEnvioFinal, calcularDescuentoFijo, validarCantidad, validarPeso, validarPrecio } from "./ventas.js";
 
 const cantidadInput = document.querySelector("#cantidad");
 const precioInput = document.querySelector("#precio");
