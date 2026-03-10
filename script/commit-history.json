@@ -1007,12 +1007,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "75cfa1c587abb00848ab4a50253cdcf1f381b39e",
     "author": "dahbner",
     "commit": {
       "date": "2026-03-10T09:18:53.000Z",
       "message": "feat: mostrar descuento adicional 1% para la categoria Electronicos",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/75cfa1c587abb00848ab4a50253cdcf1f381b39e"
     },
     "stats": {
       "total": 8,
@@ -1022,6 +1022,25 @@
     },
     "coverage": 96.83,
     "test_count": 33,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-10T09:29:00.000Z",
+      "message": "fix: refactoring para la funcion calcularDescuento y calcularImpuesto, reorganizando el orden del codigo para descuentos e impuestos",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 97,
+      "additions": 47,
+      "deletions": 50,
+      "date": "2026-03-10"
+    },
+    "coverage": 100,
+    "test_count": 35,
     "failed_tests": 0,
     "conclusion": "success"
   }

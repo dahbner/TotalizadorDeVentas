@@ -125,4 +125,13 @@ describe("Totalizador Ventas", () => {
   it("deberia mostrar 1% de descuento adicional para Electronicos", () => {
     expect(mostrarDescuentoCategoria("Electronicos")).toEqual(1);
   });
+  
+  //Descuento e Impuesto Total
+  it("deberia calcular el descuento total sumando el % base y el % de categoria", () => {
+    expect(calcularDescuento(1000, "Alimentos")).toEqual(50);
+  });
+
+  it("deberia calcular el impuesto total sumando el % de estado y el % de categoria", () => {
+    expect(calcularImpuesto(100, "CA", "Muebles")).toEqual(11.25);
+  });
 });

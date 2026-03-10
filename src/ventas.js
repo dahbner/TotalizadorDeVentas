@@ -10,44 +10,7 @@ export function mostrarPrecioUnitario(precioUnitario)
 
 export function mostrarPrecioNeto(cantidad, precioUnitario)
 {
-   return cantidad * precioUnitario;
-}
-
-export function mostrarImpuesto(estado){
-    if(estado === "CA") return 8.25;
-    if(estado === "AL") return 4.00;
-    if(estado === "NV") return 8.00;
-    if(estado === "UT") return 6.65;
-    if(estado === "TX") return 6.25;
-}
-
-export function calcularImpuesto(precioNeto, estado){
-    if(estado === "CA") return precioNeto * 0.0825;
-    if(estado === "AL") return precioNeto * 0.04;
-    if(estado === "NV") return precioNeto * 0.08;
-    if(estado === "UT") return precioNeto * 0.0665;
-    if(estado === "TX") return precioNeto * 0.0625;
-}
-
-export function calcularDescuento(precioNeto) {
-    if (precioNeto >= 30000) {
-        return Number((precioNeto * 0.15).toFixed(2));
-    }
-    
-    if (precioNeto >= 10000) {
-        return Number((precioNeto * 0.10).toFixed(2));
-    }
-
-    if (precioNeto >= 7000) {
-        return Number((precioNeto * 0.07).toFixed(2));
-    }
-    if (precioNeto >= 3000) {
-        return Number((precioNeto * 0.05).toFixed(2));
-    }
-    if (precioNeto >= 1000) {
-        return Number((precioNeto * 0.03).toFixed(2));
-    }
-    return 0;
+    return cantidad * precioUnitario;
 }
 
 export function mostrarDescuento(precioNeto) {
@@ -59,9 +22,35 @@ export function mostrarDescuento(precioNeto) {
     if(precioNeto < 1000) return 0;        
 }
 
-export function calcularPrecioTotal(precioNeto, impuesto, descuento)
-{
-    return precioNeto + impuesto - descuento;
+export function mostrarDescuentoCategoria(categoria) {
+    if (categoria === "Alimentos") {
+        return 2;
+    }
+    
+    if (categoria === "Material de escritorio") {
+        return 1.5;
+    }
+    
+    if (categoria === "Electronicos") {
+        return 1;
+    }
+    return 0;
+}
+
+export function calcularDescuento(precioNeto, categoria) {
+    const porcentajeBase = mostrarDescuento(precioNeto);
+    const porcentajeAdicional = mostrarDescuentoCategoria(categoria);
+    const porcentajeTotal = porcentajeBase + porcentajeAdicional;
+    
+    return Number((precioNeto * (porcentajeTotal / 100)).toFixed(2));
+}
+
+export function mostrarImpuesto(estado){
+    if(estado === "CA") return 8.25;
+    if(estado === "AL") return 4.00;
+    if(estado === "NV") return 8.00;
+    if(estado === "UT") return 6.65;
+    if(estado === "TX") return 6.25;
 }
 
 export function mostrarImpuestoCategoria(categoria) {
@@ -80,17 +69,16 @@ export function mostrarImpuestoCategoria(categoria) {
     return 0;
 }
 
-export function mostrarDescuentoCategoria(categoria) {
-    if (categoria === "Alimentos") {
-        return 2;
-    }
+export function calcularImpuesto(precioConDescuento, estado, categoria) {
+    const porcentajeEstado = mostrarImpuesto(estado);
+    const porcentajeAdicional = mostrarImpuestoCategoria(categoria);
+    const porcentajeTotal = porcentajeEstado + porcentajeAdicional;
+    
+    return Number((precioConDescuento * (porcentajeTotal / 100)).toFixed(2));
+}
 
-    if (categoria === "Material de escritorio") {
-        return 1.5;
-    }
 
-    if (categoria === "Electronicos") {
-        return 1;
-    }
-    return 0;
+export function calcularPrecioTotal(precioNeto, impuesto, descuento)
+{
+    return precioNeto + impuesto - descuento;
 }
