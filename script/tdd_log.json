@@ -1636,9 +1636,15 @@
     "testId": 82
   },
   {
-    "commitId": "HEAD",
+    "commitId": "93e1bf71f14bd1864894f28aae17cdc07114666d",
     "commitName": "refactor: condicion validaciones",
     "commitTimestamp": 1773142900534,
     "testId": 82
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: validaciones",
+    "commitTimestamp": 1773143416241,
+    "testId": 83
   }
 ]

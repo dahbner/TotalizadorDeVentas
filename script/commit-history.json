@@ -1558,12 +1558,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "93e1bf71f14bd1864894f28aae17cdc07114666d",
     "author": "Flora",
     "commit": {
       "date": "2026-03-10T11:41:39.000Z",
       "message": "refactor: condicion validaciones",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/93e1bf71f14bd1864894f28aae17cdc07114666d"
     },
     "stats": {
       "total": 8,
@@ -1575,5 +1575,24 @@
     "test_count": 56,
     "failed_tests": 1,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Flora",
+    "commit": {
+      "date": "2026-03-10T11:50:14.000Z",
+      "message": "fix: validaciones",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 16,
+      "deletions": 3,
+      "date": "2026-03-10"
+    },
+    "coverage": 95.6,
+    "test_count": 56,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]

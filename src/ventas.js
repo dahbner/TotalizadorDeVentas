@@ -22,14 +22,14 @@ export function validarCantidad(cantidad) {
 }
 
 export function validarPrecio(precio) {
-    if (isNaN(cantidad) || cantidad <= 0) {
+    if (isNaN(precio) || precio <= 0) {
         return "Precio invalido";
     }
     return "";
 }
 
 export function validarPeso(peso) {
-    if (isNaN(peso) || peso < 0) {
+    if (isNaN(peso) || peso <= 0) {
         return "Peso invalido";
     }
     return "";
@@ -107,7 +107,7 @@ export function calcularImpuesto(precioConDescuento, estado, categoria) {
 
 //Costo de envio
 export function mostrarCostoEnvio(peso){
-    if (peso >= 0 && peso <= 10) return 0;
+    if (peso >= 1 && peso <= 10) return 0;
     if (peso > 10 && peso <= 20) return 3.5;
     if (peso > 20 && peso <= 40) return 5;
     if (peso > 40 && peso <= 80) return 6;

@@ -19,6 +19,19 @@ botonTotalizar.addEventListener("click", () => {
     const cliente = clienteInput.value;
     const peso = Number(pesoInput.value);
 
+    const errorCantidad = validarCantidad(cantidad);
+    const errorPrecio = validarPrecio(precio);
+    const errorPeso = validarPeso(peso);
+
+    if (errorCantidad || errorPrecio || errorPeso) {
+        divResultado.innerHTML = `
+            <p>${errorCantidad}</p>
+            <p>${errorPrecio}</p>
+            <p>${errorPeso}</p>
+        `;
+        return;
+    }
+
     const cantidadValidada = mostrarCantidad(cantidad);
     const precioValidado = mostrarPrecioUnitario(precio);
     const precioNeto = mostrarPrecioNeto(cantidad, precio);
