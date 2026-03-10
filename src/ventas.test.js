@@ -197,4 +197,10 @@ it("deberia calcular el precio total con descuento e impuesto", () => {
   it("no deberia aplicar descuento si el cliente es Recurrente pero el precio no supera 3000", () => {
   expect(calcularDescuentoFijo(2500, "Recurrente", "Alimentos")).toEqual(0);
   });
+  it("deberia aplicar descuento fijo de 200 si el cliente es Especial, la orden supera 7000 y la categoria es Electronicos", () => {
+  expect(calcularDescuentoFijo(8000, "Especial", "Electronicos")).toEqual(200);
+  });
+  it("no deberia aplicar descuento si la categoria no coincide", () => {
+  expect(calcularDescuentoFijo(8000, "Especial", "Alimentos")).toEqual(0);
+  });
 });

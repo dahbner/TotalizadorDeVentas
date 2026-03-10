@@ -1387,12 +1387,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "98f53eb489e41e92dcc668a77cc00104ad6eedd1",
     "author": "Flora",
     "commit": {
       "date": "2026-03-10T11:15:48.000Z",
       "message": "feat: aplicar descuento de 100",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/98f53eb489e41e92dcc668a77cc00104ad6eedd1"
     },
     "stats": {
       "total": 18,
@@ -1402,6 +1402,25 @@
     },
     "coverage": 98.75,
     "test_count": 50,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Flora",
+    "commit": {
+      "date": "2026-03-10T11:17:58.000Z",
+      "message": "feat: aplicar descuento fijo de 200",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-03-10"
+    },
+    "coverage": 98.78,
+    "test_count": 52,
     "failed_tests": 0,
     "conclusion": "success"
   }
