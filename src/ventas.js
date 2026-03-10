@@ -92,8 +92,10 @@ export function calcularImpuesto(precioConDescuento, estado, categoria) {
     return Number((precioConDescuento * (porcentajeTotal / 100)).toFixed(2));
 }
 
+export function calcularPrecioConDescuento(precioNeto, descuento) {
+    return precioNeto - descuento;
+}
 
-export function calcularPrecioTotal(precioNeto, impuesto, descuento)
-{
-    return precioNeto + impuesto - descuento;
+export function calcularPrecioTotal(precioNeto, impuesto, descuento, costoEnvio) {
+    return precioNeto + impuesto - descuento + costoEnvio;
 }

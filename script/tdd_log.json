@@ -1284,9 +1284,47 @@
     "testId": 65
   },
   {
-    "commitId": "HEAD",
+    "commitId": "907ff4e67d67a4b8a91051440f91f955a53a5658",
     "commitName": "feat: tipo de cliente normal seleccionado por defecto",
     "commitTimestamp": 1773138255913,
     "testId": 66
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 2,
+    "numTotalTests": 44,
+    "timestamp": 1773138478763,
+    "success": false,
+    "testId": 67
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 2,
+    "numTotalTests": 44,
+    "timestamp": 1773138497870,
+    "success": false,
+    "testId": 67
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 2,
+    "numTotalTests": 44,
+    "timestamp": 1773138530548,
+    "success": false,
+    "testId": 67
+  },
+  {
+    "numPassedTests": 44,
+    "failedTests": 0,
+    "numTotalTests": 44,
+    "timestamp": 1773138678842,
+    "success": true,
+    "testId": 67
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: quitando operacion logica de presenter e implementandola en ventas.js",
+    "commitTimestamp": 1773138718521,
+    "testId": 67
   }
 ]

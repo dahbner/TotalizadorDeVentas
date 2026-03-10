@@ -1254,12 +1254,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "907ff4e67d67a4b8a91051440f91f955a53a5658",
     "author": "dahbner",
     "commit": {
       "date": "2026-03-10T10:24:14.000Z",
       "message": "feat: tipo de cliente normal seleccionado por defecto",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/907ff4e67d67a4b8a91051440f91f955a53a5658"
     },
     "stats": {
       "total": 3,
@@ -1269,6 +1269,25 @@
     },
     "coverage": 100,
     "test_count": 43,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-10T10:31:57.000Z",
+      "message": "fix: quitando operacion logica de presenter e implementandola en ventas.js",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 27,
+      "additions": 18,
+      "deletions": 9,
+      "date": "2026-03-10"
+    },
+    "coverage": 100,
+    "test_count": 44,
     "failed_tests": 0,
     "conclusion": "success"
   }

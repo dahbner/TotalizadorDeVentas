@@ -24,7 +24,7 @@ botonTotalizar.addEventListener("click", () => {
     const porcentajeDescuentoCategoria = mostrarDescuentoCategoria(categoria);
     const descuento = calcularDescuento(precioNeto, categoria);
 
-    const precioConDescuento = precioNeto - descuento;
+    const precioConDescuento = calcularPrecioConDescuento(precioNeto, descuento);
     
     const porcentajeImpuesto = mostrarImpuesto(estado);
     const porcentajeImpuestoCategoria = mostrarImpuestoCategoria(categoria);

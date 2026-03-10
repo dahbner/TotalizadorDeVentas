@@ -1,7 +1,9 @@
-import {mostrarCantidad, mostrarPrecioNeto, mostrarPrecioUnitario, 
+import {
+  mostrarCantidad, mostrarPrecioNeto, mostrarPrecioUnitario, 
   mostrarImpuesto, calcularImpuesto, calcularDescuento, mostrarDescuento, 
   calcularPrecioTotal, mostrarImpuestoCategoria, mostrarDescuentoCategoria, 
-  mostrarCostoEnvio, calcularCostoEnvio} from "./ventas.js";
+  mostrarCostoEnvio, calcularCostoEnvio, calcularPrecioConDescuento
+} from "./ventas.js";
 
 describe("Totalizador Ventas", () => {
   it("deberia mostrar la cantidad de items ingresada", () => {
@@ -95,8 +97,8 @@ describe("Totalizador Ventas", () => {
   });
 
   //precio total
-  it("deberia calcular el precio total con descuento e impuesto", () => {
-    expect(calcularPrecioTotal(60, 3.75, 0)).toEqual(63.75);
+it("deberia calcular el precio total con descuento e impuesto", () => {
+    expect(calcularPrecioTotal(60, 3.75, 0, 0)).toEqual(63.75);
   });
 
   //Impuesto Adicional
@@ -163,5 +165,10 @@ describe("Totalizador Ventas", () => {
 
   it("deberia calcular el costo total de envio multiplicando cantidad por costo unitario", () => {
     expect(calcularCostoEnvio(11, 1, 3.5)).toEqual(3.5);
+  });
+
+  //precio con descuento
+  it("deberia calcular el precio con descuento restando el descuento al precio neto", () => {
+    expect(calcularPrecioConDescuento(100, 20)).toEqual(80);
   });
 });
