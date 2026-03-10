@@ -1,4 +1,7 @@
-import {mostrarCantidad, mostrarPrecioNeto, mostrarPrecioUnitario, mostrarImpuesto, calcularImpuesto, calcularDescuento, mostrarDescuento, calcularPrecioTotal, mostrarImpuestoCategoria, mostrarDescuentoCategoria} from "./ventas.js";
+import {mostrarCantidad, mostrarPrecioNeto, mostrarPrecioUnitario, 
+  mostrarImpuesto, calcularImpuesto, calcularDescuento, mostrarDescuento, 
+  calcularPrecioTotal, mostrarImpuestoCategoria, mostrarDescuentoCategoria, 
+  mostrarCostoEnvio} from "./ventas.js";
 
 describe("Totalizador Ventas", () => {
   it("deberia mostrar la cantidad de items ingresada", () => {
@@ -134,4 +137,10 @@ describe("Totalizador Ventas", () => {
   it("deberia calcular el impuesto total sumando el % de estado y el % de categoria", () => {
     expect(calcularImpuesto(100, "CA", "Muebles")).toEqual(11.25);
   });
+
+  //Costo envio 
+  it("deberia mostrar $0 de envio si el peso esta entre 0 y 10", () => {
+    expect(mostrarCostoEnvio(5)).toEqual(0);
+  });
+
 });

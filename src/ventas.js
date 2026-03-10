@@ -69,6 +69,10 @@ export function mostrarImpuestoCategoria(categoria) {
     return 0;
 }
 
+export function mostrarCostoEnvio(peso){
+    if (peso >= 0 && peso <= 10) return 0;
+}
+
 export function calcularImpuesto(precioConDescuento, estado, categoria) {
     const porcentajeEstado = mostrarImpuesto(estado);
     const porcentajeAdicional = mostrarImpuestoCategoria(categoria);

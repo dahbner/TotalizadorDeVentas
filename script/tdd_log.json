@@ -1058,9 +1058,39 @@
     "testId": 54
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f8fcb411f216077dc8cfd94e4d937154c7851cf1",
     "commitName": "fix: arreglando presenter.js para que muestre el impuesto detallado",
     "commitTimestamp": 1773135627039,
     "testId": 55
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 0,
+    "numTotalTests": 35,
+    "timestamp": 1773136177306,
+    "success": true,
+    "testId": 56
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 1,
+    "numTotalTests": 36,
+    "timestamp": 1773136195524,
+    "success": false,
+    "testId": 56
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 0,
+    "numTotalTests": 36,
+    "timestamp": 1773136232395,
+    "success": true,
+    "testId": 56
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar costo de envio cuando peso esta entre 0 y 10",
+    "commitTimestamp": 1773136270554,
+    "testId": 56
   }
 ]

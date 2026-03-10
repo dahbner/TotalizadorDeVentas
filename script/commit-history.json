@@ -1045,12 +1045,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f8fcb411f216077dc8cfd94e4d937154c7851cf1",
     "author": "dahbner",
     "commit": {
       "date": "2026-03-10T09:40:25.000Z",
       "message": "fix: arreglando presenter.js para que muestre el impuesto detallado",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/f8fcb411f216077dc8cfd94e4d937154c7851cf1"
     },
     "stats": {
       "total": 12,
@@ -1060,6 +1060,25 @@
     },
     "coverage": 100,
     "test_count": 35,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Flora",
+    "commit": {
+      "date": "2026-03-10T09:51:09.000Z",
+      "message": "feat: mostrar costo de envio cuando peso esta entre 0 y 10",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 17,
+      "deletions": 1,
+      "date": "2026-03-10"
+    },
+    "coverage": 100,
+    "test_count": 36,
     "failed_tests": 0,
     "conclusion": "success"
   }
