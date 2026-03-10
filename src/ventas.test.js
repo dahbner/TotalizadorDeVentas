@@ -145,4 +145,7 @@ describe("Totalizador Ventas", () => {
   it("deberia mostrar $3.5 de envio si el peso esta entre 11 y 20", () => {
     expect(mostrarCostoEnvio(15)).toEqual(3.5);
   });
+  it("deberia mostrar $5 de envio si el peso esta entre 21 y 40", () => {
+    expect(mostrarCostoEnvio(30)).toEqual(5);
+  });
 });
