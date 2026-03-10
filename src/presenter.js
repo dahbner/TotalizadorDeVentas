@@ -5,6 +5,7 @@ const precioInput = document.querySelector("#precio");
 const estadoInput = document.querySelector("#estado");
 const categoriaInput = document.querySelector("#categoria");
 const pesoInput = document.querySelector("#peso");
+const clienteInput = document.querySelector("#cliente");
 const botonTotalizar = document.querySelector("#btn-j1");
 const divResultado = document.querySelector("#resultado");
 
@@ -13,6 +14,7 @@ botonTotalizar.addEventListener("click", () => {
     const precio = Number(precioInput.value);
     const estado = estadoInput.value;
     const categoria = categoriaInput.value;
+    const cliente = clienteInput.value;
 
     const cantidadValidada = mostrarCantidad(cantidad);
     const precioValidado = mostrarPrecioUnitario(precio);
@@ -35,6 +37,7 @@ botonTotalizar.addEventListener("click", () => {
     const total = calcularPrecioTotal(precioNeto, impuesto, descuento) + costoEnvioTotal;
 
     divResultado.innerHTML = `
+        <p>Tipo de Cliente: ${cliente}</p>
         <p>Categoría: ${categoria}</p>
         <p>Precio neto (${cantidadValidada}*$${precioValidado}): $${precioNeto}</p>
         <p>Descuento (${porcentajeDescuento}% base + ${porcentajeDescuentoCategoria}% adicional): $${descuento.toFixed(2)}</p>

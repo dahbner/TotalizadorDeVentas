@@ -1278,9 +1278,15 @@
     "testId": 64
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f22a1fab807810e24f16156dc592e392b10e7c95",
     "commitName": "feat: seleccionar tipo de cliente de una lista desplegable",
     "commitTimestamp": 1773138023070,
     "testId": 65
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: tipo de cliente normal seleccionado por defecto",
+    "commitTimestamp": 1773138255913,
+    "testId": 66
   }
 ]
