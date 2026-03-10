@@ -1052,9 +1052,15 @@
     "testId": 54
   },
   {
-    "commitId": "HEAD",
+    "commitId": "72e3d8cd4a05d1b705c75d273978cd118d4edb9a",
     "commitName": "fix: refactoring para la funcion calcularDescuento y calcularImpuesto, reorganizando el orden del codigo para descuentos e impuestos",
     "commitTimestamp": 1773134942146,
     "testId": 54
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: arreglando presenter.js para que muestre el impuesto detallado",
+    "commitTimestamp": 1773135627039,
+    "testId": 55
   }
 ]

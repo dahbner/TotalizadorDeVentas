@@ -1,4 +1,4 @@
-import { mostrarCantidad, mostrarPrecioUnitario, mostrarPrecioNeto, calcularImpuesto, mostrarImpuesto, calcularDescuento, mostrarDescuento, calcularPrecioTotal } from "./ventas.js";
+import { mostrarCantidad, mostrarPrecioUnitario, mostrarPrecioNeto, calcularImpuesto, mostrarImpuesto, calcularDescuento, mostrarDescuento, calcularPrecioTotal, mostrarImpuestoCategoria, mostrarDescuentoCategoria } from "./ventas.js";
 
 const cantidadInput = document.querySelector("#cantidad");
 const precioInput = document.querySelector("#precio");
@@ -18,19 +18,21 @@ botonTotalizar.addEventListener("click", () => {
     const precioNeto = mostrarPrecioNeto(cantidad, precio);
 
     const porcentajeDescuento = mostrarDescuento(precioNeto);
-    const descuento = calcularDescuento(precioNeto);
+    const porcentajeDescuentoCategoria = mostrarDescuentoCategoria(categoria);
+    const descuento = calcularDescuento(precioNeto, categoria);
 
     const precioConDescuento = precioNeto - descuento;
     
     const porcentajeImpuesto = mostrarImpuesto(estado);
-    const impuesto = calcularImpuesto(precioConDescuento, estado);
+    const porcentajeImpuestoCategoria = mostrarImpuestoCategoria(categoria);
+    const impuesto = calcularImpuesto(precioConDescuento, estado,categoria);
     
     const total = calcularPrecioTotal(precioNeto, impuesto, descuento);
 
     divResultado.innerHTML = `
         <p>Categoría: ${categoria}</p>
         <p>Precio neto (${cantidadValidada}*$${precioValidado}): $${precioNeto}</p>
-        <p>Descuento (${porcentajeDescuento}%): $${descuento.toFixed(2)}</p>
-        <p>Impuesto para ${estado} (${porcentajeImpuesto}%): $${impuesto.toFixed(2)}</p>
+        <p>Descuento (${porcentajeDescuento}% base + ${porcentajeDescuentoCategoria}% adicional): $${descuento.toFixed(2)}</p>
+        <p>Impuesto para ${estado} (${porcentajeImpuesto}% base + ${porcentajeImpuestoCategoria}% adicional): $${impuesto.toFixed(2)}</p>
         <p>Precio total (descuento e impuesto): $${total.toFixed(2)}</p>`;
 });
