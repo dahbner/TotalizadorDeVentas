@@ -1,4 +1,4 @@
-import { mostrarCantidad, mostrarPrecioUnitario, mostrarPrecioNeto, calcularImpuesto, mostrarImpuesto, calcularDescuento } from "./ventas.js";
+import { mostrarCantidad, mostrarPrecioUnitario, mostrarPrecioNeto, calcularImpuesto, mostrarImpuesto, calcularDescuento, mostrarDescuento, calcularPrecioTotal } from "./ventas.js";
 
 const cantidadInput = document.querySelector("#cantidad");
 const precioInput = document.querySelector("#precio");
@@ -15,31 +15,19 @@ botonTotalizar.addEventListener("click", () => {
     const precioValidado = mostrarPrecioUnitario(precio);
     const precioNeto = mostrarPrecioNeto(cantidad, precio);
 
+    const porcentajeDescuento = mostrarDescuento(precioNeto);
     const descuento = calcularDescuento(precioNeto);
 
-    let porcentajeDescuento = 0;
-    if (precioNeto >= 30000) {
-        porcentajeDescuento = 15;
-    } else if (precioNeto >= 10000) {
-        porcentajeDescuento = 10;
-    } else if (precioNeto >= 7000) {
-        porcentajeDescuento = 7;
-    } else if (precioNeto >= 3000) {
-        porcentajeDescuento = 5;
-    } else if (precioNeto >= 1000) {
-        porcentajeDescuento = 3;
-    }
-
     const precioConDescuento = precioNeto - descuento;
-
-    const impuesto = calcularImpuesto(precioConDescuento, estado);
+    
     const porcentajeImpuesto = mostrarImpuesto(estado);
-    const total = precioConDescuento + impuesto;
+    const impuesto = calcularImpuesto(precioConDescuento, estado);
+    
+    const total = calcularPrecioTotal(precioConDescuento, impuesto, descuento);
 
     divResultado.innerHTML = `
-    <p>Precio neto (${cantidadValidada}*$${precioValidado}): $${precioNeto}</p>
-    <p>Descuento (%${porcentajeDescuento}): $${descuento.toFixed(2)}</p>
-    <p>Impuesto para ${estado} (%${porcentajeImpuesto}): $${impuesto.toFixed(2)}</p>
-    <p>Precio total (+impuesto): $${total.toFixed(2)}</p>`
-    ;
+        <p>Precio neto (${cantidadValidada}*$${precioValidado}): $${precioNeto}</p>
+        <p>Descuento (${porcentajeDescuento}%): $${descuento.toFixed(2)}</p>
+        <p>Impuesto para ${estado} (${porcentajeImpuesto}%): $${impuesto.toFixed(2)}</p>
+        <p>Precio total (descuento e impuesto): $${total.toFixed(2)}</p>`;
 });

@@ -836,17 +836,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c6c8887973dc6836612d6339d2020dff6b389742",
     "author": "Flora",
     "commit": {
       "date": "2026-03-10T03:49:08.000Z",
       "message": "feat: calcular precio total con impuesto y descuento",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/c6c8887973dc6836612d6339d2020dff6b389742"
     },
     "stats": {
       "total": 12,
       "additions": 11,
       "deletions": 1,
+      "date": "2026-03-10"
+    },
+    "coverage": 100,
+    "test_count": 26,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Flora",
+    "commit": {
+      "date": "2026-03-10T08:32:42.000Z",
+      "message": "feat: incremento presenter y html",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 32,
+      "additions": 10,
+      "deletions": 22,
       "date": "2026-03-10"
     },
     "coverage": 100,

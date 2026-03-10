@@ -888,9 +888,31 @@
     "testId": 44
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c6c8887973dc6836612d6339d2020dff6b389742",
     "commitName": "feat: calcular precio total con impuesto y descuento",
     "commitTimestamp": 1773114549627,
     "testId": 44
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 0,
+    "numTotalTests": 26,
+    "timestamp": 1773114943902,
+    "success": true,
+    "testId": 45
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 0,
+    "numTotalTests": 26,
+    "timestamp": 1773130648613,
+    "success": true,
+    "testId": 45
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: incremento presenter y html",
+    "commitTimestamp": 1773131564235,
+    "testId": 45
   }
 ]
