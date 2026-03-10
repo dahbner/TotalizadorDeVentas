@@ -1425,17 +1425,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3fba7b8f5bd95f47d1189db33a7786871b7d13d1",
     "author": "Flora",
     "commit": {
       "date": "2026-03-10T11:22:54.000Z",
       "message": "feat: incremento presenter",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/3fba7b8f5bd95f47d1189db33a7786871b7d13d1"
     },
     "stats": {
       "total": 9,
       "additions": 7,
       "deletions": 2,
+      "date": "2026-03-10"
+    },
+    "coverage": 98.78,
+    "test_count": 52,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Flora",
+    "commit": {
+      "date": "2026-03-10T11:26:06.000Z",
+      "message": "fix: parametros test de calcularCostoEnvio",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 4,
+      "deletions": 1,
       "date": "2026-03-10"
     },
     "coverage": 98.78,

@@ -1482,9 +1482,23 @@
     "testId": 75
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3fba7b8f5bd95f47d1189db33a7786871b7d13d1",
     "commitName": "feat: incremento presenter",
     "commitTimestamp": 1773141776192,
     "testId": 75
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 0,
+    "numTotalTests": 52,
+    "timestamp": 1773141923928,
+    "success": true,
+    "testId": 76
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: parametros test de calcularCostoEnvio",
+    "commitTimestamp": 1773141968090,
+    "testId": 76
   }
 ]

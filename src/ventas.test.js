@@ -165,7 +165,7 @@ it("deberia calcular el precio total con descuento e impuesto", () => {
   });
 
   it("deberia calcular el costo total de envio multiplicando cantidad por costo unitario", () => {
-    expect(calcularCostoEnvio(11, 1, 3.5)).toEqual(3.5);
+    expect(calcularCostoEnvio(11, 1)).toEqual(3.5);
   });
 
   //precio con descuento
@@ -203,4 +203,7 @@ it("deberia calcular el precio total con descuento e impuesto", () => {
   it("no deberia aplicar descuento si la categoria no coincide", () => {
   expect(calcularDescuentoFijo(8000, "Especial", "Alimentos")).toEqual(0);
   });
+
+  //Validaciones
+
 });
