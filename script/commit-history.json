@@ -1216,17 +1216,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "30c2c1d79c90467e9ab6cdda4683e4714fa0f22d",
     "author": "Flora",
     "commit": {
       "date": "2026-03-10T10:09:09.000Z",
       "message": "feat: incremento presenter",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/30c2c1d79c90467e9ab6cdda4683e4714fa0f22d"
     },
     "stats": {
       "total": 11,
       "additions": 9,
       "deletions": 2,
+      "date": "2026-03-10"
+    },
+    "coverage": 100,
+    "test_count": 43,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-10T10:20:21.000Z",
+      "message": "feat: seleccionar tipo de cliente de una lista desplegable",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
       "date": "2026-03-10"
     },
     "coverage": 100,

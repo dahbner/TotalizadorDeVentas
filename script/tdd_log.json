@@ -1272,9 +1272,15 @@
     "testId": 63
   },
   {
-    "commitId": "HEAD",
+    "commitId": "30c2c1d79c90467e9ab6cdda4683e4714fa0f22d",
     "commitName": "feat: incremento presenter",
     "commitTimestamp": 1773137351161,
     "testId": 64
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: seleccionar tipo de cliente de una lista desplegable",
+    "commitTimestamp": 1773138023070,
+    "testId": 65
   }
 ]
