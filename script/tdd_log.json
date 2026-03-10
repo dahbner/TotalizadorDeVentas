@@ -988,9 +988,23 @@
     "testId": 50
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a327f11804e86c513c1e84e8594621b38800660d",
     "commitName": "feat: mostrar impuesto adicional 2% para la categoria Vestimenta",
     "commitTimestamp": 1773133908744,
     "testId": 50
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1773134060211,
+    "success": true,
+    "testId": 51
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar descuento adicional 2% para la categoria Alimentos",
+    "commitTimestamp": 1773134141580,
+    "testId": 51
   }
 ]

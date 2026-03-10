@@ -79,3 +79,10 @@ export function mostrarImpuestoCategoria(categoria) {
     }
     return 0;
 }
+
+export function mostrarDescuentoCategoria(categoria) {
+    if (categoria === "Alimentos") {
+        return 2;
+    }
+    return 0;
+}

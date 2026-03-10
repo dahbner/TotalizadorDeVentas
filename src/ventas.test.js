@@ -1,4 +1,4 @@
-import {mostrarCantidad, mostrarPrecioNeto, mostrarPrecioUnitario, mostrarImpuesto, calcularImpuesto, calcularDescuento, mostrarDescuento, calcularPrecioTotal, mostrarImpuestoCategoria} from "./ventas.js";
+import {mostrarCantidad, mostrarPrecioNeto, mostrarPrecioUnitario, mostrarImpuesto, calcularImpuesto, calcularDescuento, mostrarDescuento, calcularPrecioTotal, mostrarImpuestoCategoria, mostrarDescuentoCategoria} from "./ventas.js";
 
 describe("Totalizador Ventas", () => {
   it("deberia mostrar la cantidad de items ingresada", () => {
@@ -111,5 +111,10 @@ describe("Totalizador Ventas", () => {
 
   it("deberia mostrar 2% de impuesto adicional para Vestimenta", () => {
     expect(mostrarImpuestoCategoria("Vestimenta")).toEqual(2);
+  });
+
+  //Descuento adicional
+  it("deberia mostrar 2% de descuento adicional para Alimentos", () => {
+    expect(mostrarDescuentoCategoria("Alimentos")).toEqual(2);
   });
 });
