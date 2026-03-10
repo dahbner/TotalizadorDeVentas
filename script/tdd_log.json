@@ -1594,9 +1594,23 @@
     "testId": 79
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b42f689ae3cb0ab53b17488471d5f011f3f636c2",
     "commitName": "feat: validacion peso ingresado",
     "commitTimestamp": 1773142324515,
     "testId": 79
+  },
+  {
+    "numPassedTests": 56,
+    "failedTests": 0,
+    "numTotalTests": 56,
+    "timestamp": 1773142360813,
+    "success": true,
+    "testId": 80
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: validacion precio ingresado",
+    "commitTimestamp": 1773142379250,
+    "testId": 80
   }
 ]

@@ -1501,12 +1501,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b42f689ae3cb0ab53b17488471d5f011f3f636c2",
     "author": "Flora",
     "commit": {
       "date": "2026-03-10T11:32:03.000Z",
       "message": "feat: validacion peso ingresado",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/b42f689ae3cb0ab53b17488471d5f011f3f636c2"
     },
     "stats": {
       "total": 11,
@@ -1515,6 +1515,25 @@
       "date": "2026-03-10"
     },
     "coverage": 97.75,
+    "test_count": 56,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Flora",
+    "commit": {
+      "date": "2026-03-10T11:32:57.000Z",
+      "message": "refactor: validacion precio ingresado",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 2,
+      "deletions": 1,
+      "date": "2026-03-10"
+    },
+    "coverage": 96.67,
     "test_count": 56,
     "failed_tests": 0,
     "conclusion": "success"

@@ -22,9 +22,10 @@ export function validarCantidad(cantidad) {
 }
 
 export function validarPrecio(precio) {
-    if (precio < 0) {
+    if (precio < 0 || precio === "") {
         return "Precio invalido";
     }
+    return "";
 }
 
 export function validarPeso(peso) {
