@@ -4,7 +4,7 @@ import {
   calcularPrecioTotal, mostrarImpuestoCategoria, mostrarDescuentoCategoria, 
   mostrarCostoEnvio, calcularCostoEnvio, calcularPrecioConDescuento, 
   mostrarDescuentoEnvioCliente, calcularCostoEnvioFinal, calcularDescuentoFijo,
-  validarCantidad
+  validarCantidad, validarPrecio
 } from "./ventas.js";
 
 describe("Totalizador Ventas", () => {
@@ -211,5 +211,8 @@ it("deberia calcular el precio total con descuento e impuesto", () => {
   });
   it("deberia devolver error si la cantidad no se ingresa", () => {
   expect(validarCantidad("")).toEqual("Cantidad invalida");
+  });
+  it("deberia devolver error si el precio es negativo", () => {
+  expect(validarPrecio(-5)).toEqual("Precio invalido");
   });
 });

@@ -21,6 +21,12 @@ export function validarCantidad(cantidad) {
     return "";
 }
 
+export function validarPrecio(precio) {
+    if (precio < 0) {
+        return "Precio invalido";
+    }
+}
+
 //Descuentos
 export function mostrarDescuento(precioNeto) {
     if (precioNeto >= 30000) return 15;

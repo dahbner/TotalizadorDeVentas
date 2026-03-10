@@ -1463,12 +1463,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "936b5c6384e34c603df2135eee01eaad6d77b508",
     "author": "Flora",
     "commit": {
       "date": "2026-03-10T11:29:15.000Z",
       "message": "feat: validacion cantidad ingresada",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/936b5c6384e34c603df2135eee01eaad6d77b508"
     },
     "stats": {
       "total": 18,
@@ -1478,6 +1478,25 @@
     },
     "coverage": 97.65,
     "test_count": 54,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Flora",
+    "commit": {
+      "date": "2026-03-10T11:31:00.000Z",
+      "message": "feat: validacion precio ingresado",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-03-10"
+    },
+    "coverage": 97.7,
+    "test_count": 55,
     "failed_tests": 0,
     "conclusion": "success"
   }
