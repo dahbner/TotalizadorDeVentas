@@ -1444,12 +1444,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "dd4ae8ccd683cf105bae3a2797fd74bc67b98059",
     "author": "Flora",
     "commit": {
       "date": "2026-03-10T11:26:06.000Z",
       "message": "fix: parametros test de calcularCostoEnvio",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/dd4ae8ccd683cf105bae3a2797fd74bc67b98059"
     },
     "stats": {
       "total": 5,
@@ -1459,6 +1459,25 @@
     },
     "coverage": 98.78,
     "test_count": 52,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Flora",
+    "commit": {
+      "date": "2026-03-10T11:29:15.000Z",
+      "message": "feat: validacion cantidad ingresada",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 16,
+      "deletions": 2,
+      "date": "2026-03-10"
+    },
+    "coverage": 97.65,
+    "test_count": 54,
     "failed_tests": 0,
     "conclusion": "success"
   }

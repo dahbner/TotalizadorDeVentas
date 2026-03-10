@@ -1496,9 +1496,55 @@
     "testId": 76
   },
   {
-    "commitId": "HEAD",
+    "commitId": "dd4ae8ccd683cf105bae3a2797fd74bc67b98059",
     "commitName": "fix: parametros test de calcularCostoEnvio",
     "commitTimestamp": 1773141968090,
     "testId": 76
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 1,
+    "numTotalTests": 53,
+    "timestamp": 1773142003078,
+    "success": false,
+    "testId": 77
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 1,
+    "numTotalTests": 53,
+    "timestamp": 1773142057656,
+    "success": false,
+    "testId": 77
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 0,
+    "numTotalTests": 53,
+    "timestamp": 1773142077582,
+    "success": true,
+    "testId": 77
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 1,
+    "numTotalTests": 54,
+    "timestamp": 1773142121260,
+    "success": false,
+    "testId": 77
+  },
+  {
+    "numPassedTests": 54,
+    "failedTests": 0,
+    "numTotalTests": 54,
+    "timestamp": 1773142135674,
+    "success": true,
+    "testId": 77
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validacion cantidad ingresada",
+    "commitTimestamp": 1773142157469,
+    "testId": 77
   }
 ]

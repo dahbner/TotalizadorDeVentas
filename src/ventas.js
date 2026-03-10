@@ -13,6 +13,14 @@ export function mostrarPrecioNeto(cantidad, precioUnitario)
     return cantidad * precioUnitario;
 }
 
+//Validaciones
+export function validarCantidad(cantidad) {
+    if (cantidad < 0 || cantidad === "") {
+        return "Cantidad invalida";
+    } 
+    return "";
+}
+
 //Descuentos
 export function mostrarDescuento(precioNeto) {
     if (precioNeto >= 30000) return 15;
