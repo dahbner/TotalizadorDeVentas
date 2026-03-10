@@ -2,7 +2,7 @@ import {
   mostrarCantidad, mostrarPrecioNeto, mostrarPrecioUnitario, 
   mostrarImpuesto, calcularImpuesto, calcularDescuento, mostrarDescuento, 
   calcularPrecioTotal, mostrarImpuestoCategoria, mostrarDescuentoCategoria, 
-  mostrarCostoEnvio, calcularCostoEnvio, calcularPrecioConDescuento
+  mostrarCostoEnvio, calcularCostoEnvio, calcularPrecioConDescuento, mostrarDescuentoEnvioCliente
 } from "./ventas.js";
 
 describe("Totalizador Ventas", () => {
@@ -170,5 +170,10 @@ it("deberia calcular el precio total con descuento e impuesto", () => {
   //precio con descuento
   it("deberia calcular el precio con descuento restando el descuento al precio neto", () => {
     expect(calcularPrecioConDescuento(100, 20)).toEqual(80);
+  });
+
+  //costo de envio
+  it("deberia mostrar 0.5% de descuento en envio para cliente Recurrente", () => {
+    expect(mostrarDescuentoEnvioCliente("Recurrente")).toEqual(0.5);
   });
 });

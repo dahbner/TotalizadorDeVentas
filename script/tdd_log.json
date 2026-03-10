@@ -1322,9 +1322,31 @@
     "testId": 67
   },
   {
-    "commitId": "HEAD",
+    "commitId": "99f9be1e1247108ba9ee3b74d58f2cfc2212278d",
     "commitName": "fix: quitando operacion logica de presenter e implementandola en ventas.js",
     "commitTimestamp": 1773138718521,
     "testId": 67
+  },
+  {
+    "numPassedTests": 44,
+    "failedTests": 1,
+    "numTotalTests": 45,
+    "timestamp": 1773138840910,
+    "success": false,
+    "testId": 68
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 0,
+    "numTotalTests": 45,
+    "timestamp": 1773138857687,
+    "success": true,
+    "testId": 68
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar 0,5% de descuento en el costo del envio para cliente recurrente",
+    "commitTimestamp": 1773138901611,
+    "testId": 68
   }
 ]

@@ -1273,12 +1273,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "99f9be1e1247108ba9ee3b74d58f2cfc2212278d",
     "author": "dahbner",
     "commit": {
       "date": "2026-03-10T10:31:57.000Z",
       "message": "fix: quitando operacion logica de presenter e implementandola en ventas.js",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/99f9be1e1247108ba9ee3b74d58f2cfc2212278d"
     },
     "stats": {
       "total": 27,
@@ -1288,6 +1288,25 @@
     },
     "coverage": 100,
     "test_count": 44,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-10T10:35:00.000Z",
+      "message": "feat: mostrar 0,5% de descuento en el costo del envio para cliente recurrente",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-03-10"
+    },
+    "coverage": 98.57,
+    "test_count": 45,
     "failed_tests": 0,
     "conclusion": "success"
   }

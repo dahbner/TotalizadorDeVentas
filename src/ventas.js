@@ -99,3 +99,10 @@ export function calcularPrecioConDescuento(precioNeto, descuento) {
 export function calcularPrecioTotal(precioNeto, impuesto, descuento, costoEnvio) {
     return precioNeto + impuesto - descuento + costoEnvio;
 }
+
+export function mostrarDescuentoEnvioCliente(tipoCliente) {
+    if (tipoCliente === "Recurrente") {
+        return 0.5;
+    }
+    return 0;
+}
