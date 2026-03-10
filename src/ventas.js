@@ -49,3 +49,12 @@ export function calcularDescuento(precioNeto) {
     }
     return 0;
 }
+
+export function mostrarDescuento(precioNeto) {
+    if (precioNeto >= 30000) return 15;
+    if (precioNeto >= 10000) return 10;
+    if (precioNeto >= 7000) return 7;
+    if (precioNeto >= 3000) return 5;
+    if (precioNeto >= 1000) return 3;
+    if(precioNeto < 1000) return 0;        
+}

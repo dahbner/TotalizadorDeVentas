@@ -804,9 +804,55 @@
     "testId": 42
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b991a7e30666880c9a49d4c3d35f1a680f3b0019",
     "commitName": "feat: caluclar impuesto TX",
     "commitTimestamp": 1773111278986,
     "testId": 42
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 5,
+    "numTotalTests": 25,
+    "timestamp": 1773113517776,
+    "success": false,
+    "testId": 43
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 1,
+    "numTotalTests": 25,
+    "timestamp": 1773113818679,
+    "success": false,
+    "testId": 43
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 1,
+    "numTotalTests": 25,
+    "timestamp": 1773113852429,
+    "success": false,
+    "testId": 43
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 1,
+    "numTotalTests": 25,
+    "timestamp": 1773113888672,
+    "success": false,
+    "testId": 43
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1773113913675,
+    "success": true,
+    "testId": 43
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar porcentaje de descuento",
+    "commitTimestamp": 1773113938156,
+    "testId": 43
   }
 ]

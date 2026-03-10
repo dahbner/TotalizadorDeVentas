@@ -1,4 +1,4 @@
-import {mostrarCantidad, mostrarPrecioNeto, mostrarPrecioUnitario, mostrarImpuesto, calcularImpuesto, calcularDescuento} from "./ventas.js";
+import {mostrarCantidad, mostrarPrecioNeto, mostrarPrecioUnitario, mostrarImpuesto, calcularImpuesto, calcularDescuento, mostrarDescuento} from "./ventas.js";
 
 describe("Totalizador Ventas", () => {
   it("deberia mostrar la cantidad de items ingresada", () => {
@@ -69,5 +69,25 @@ describe("Totalizador Ventas", () => {
 
   it("deberia calcular 15% de descuento si el precio neto es mayor o igual a 30000", () => {
     expect(calcularDescuento(30000)).toEqual(4500); 
+  });
+
+  //mostrar porcentaje descuento
+  it("deberia mostrar 0% de descuento si el precio neto es menor a 1000", () => {
+    expect(mostrarDescuento(999)).toEqual(0);
+  });
+  it("deberia mostrar 3% de descuento si el precio neto es mayor o igual a 1000", () => {
+    expect(mostrarDescuento(1000)).toEqual(3); 
+  });
+  it("deberia mostrar 5% de descuento si el precio neto es mayor o igual a 3000", () => {
+    expect(mostrarDescuento(3000)).toEqual(5); 
+  });
+  it("deberia mostrar 7% de descuento si el precio neto es mayor o igual a 7000", () => {
+    expect(mostrarDescuento(7000)).toEqual(7); 
+  });
+  it("deberia mostrar 10% de descuento si el precio neto es mayor o igual a 10000", () => {
+    expect(mostrarDescuento(10000)).toEqual(10); 
+  });
+  it("deberia mostrar 15% de descuento si el precio neto es mayor o igual a 30000", () => {
+    expect(mostrarDescuento(30000)).toEqual(15); 
   });
 });
