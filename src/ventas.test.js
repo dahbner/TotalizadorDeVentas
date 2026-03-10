@@ -108,4 +108,8 @@ describe("Totalizador Ventas", () => {
   it("deberia mostrar 4% de impuesto adicional para Electronicos", () => {
     expect(mostrarImpuestoCategoria("Electronicos")).toEqual(4);
   });
+
+  it("deberia mostrar 2% de impuesto adicional para Vestimenta", () => {
+    expect(mostrarImpuestoCategoria("Vestimenta")).toEqual(2);
+  });
 });

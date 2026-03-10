@@ -931,12 +931,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "67532eac72b4946960f0af86b79d9c4ace2a2bcc",
     "author": "dahbner",
     "commit": {
       "date": "2026-03-10T09:09:56.000Z",
       "message": "feat: mostrar impuesto adicional 4% para la categoria Electronicos",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/67532eac72b4946960f0af86b79d9c4ace2a2bcc"
     },
     "stats": {
       "total": 7,
@@ -946,6 +946,25 @@
     },
     "coverage": 98.15,
     "test_count": 29,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-10T09:11:47.000Z",
+      "message": "feat: mostrar impuesto adicional 2% para la categoria Vestimenta",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-03-10"
+    },
+    "coverage": 98.21,
+    "test_count": 30,
     "failed_tests": 0,
     "conclusion": "success"
   }
