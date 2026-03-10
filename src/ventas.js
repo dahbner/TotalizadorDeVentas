@@ -76,6 +76,7 @@ export function mostrarCostoEnvio(peso){
     if (peso > 40 && peso <= 80) return 6;
     if (peso > 80 && peso <= 100) return 6.5;
     if (peso > 100 && peso <= 200) return 8;
+    if (peso > 200) return 9;
 }
 
 export function calcularImpuesto(precioConDescuento, estado, categoria) {

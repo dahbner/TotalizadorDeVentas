@@ -1206,9 +1206,31 @@
     "testId": 61
   },
   {
-    "commitId": "HEAD",
+    "commitId": "07336cdf64f18228a9d72647462feb6f41c90796",
     "commitName": "feat: mostrar costo de envio cuando peso esta entre 101 y 200",
     "commitTimestamp": 1773136638092,
     "testId": 61
+  },
+  {
+    "numPassedTests": 41,
+    "failedTests": 1,
+    "numTotalTests": 42,
+    "timestamp": 1773136666225,
+    "success": false,
+    "testId": 62
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 0,
+    "numTotalTests": 42,
+    "timestamp": 1773136688739,
+    "success": true,
+    "testId": 62
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar costo de envio cuando peso sea mayor a 200",
+    "commitTimestamp": 1773136707824,
+    "testId": 62
   }
 ]
