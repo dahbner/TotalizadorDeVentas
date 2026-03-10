@@ -1140,12 +1140,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0a1d1a708820e58e9ecc0302d3e868ab0c2ddce3",
     "author": "Flora",
     "commit": {
       "date": "2026-03-10T09:56:16.000Z",
       "message": "feat: mostrar costo de envio cuando peso esta entre 81 y 100",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/0a1d1a708820e58e9ecc0302d3e868ab0c2ddce3"
     },
     "stats": {
       "total": 5,
@@ -1155,6 +1155,25 @@
     },
     "coverage": 100,
     "test_count": 40,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Flora",
+    "commit": {
+      "date": "2026-03-10T09:57:16.000Z",
+      "message": "feat: mostrar costo de envio cuando peso esta entre 101 y 200",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-03-10"
+    },
+    "coverage": 100,
+    "test_count": 41,
     "failed_tests": 0,
     "conclusion": "success"
   }
