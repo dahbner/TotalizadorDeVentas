@@ -27,6 +27,12 @@ export function validarPrecio(precio) {
     }
 }
 
+export function validarPeso(peso) {
+    if (peso < 0) {
+        return "Peso invalido";
+    }
+}
+
 //Descuentos
 export function mostrarDescuento(precioNeto) {
     if (precioNeto >= 30000) return 15;

@@ -1572,9 +1572,31 @@
     "testId": 78
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e540b8daab3f34e38e82ef9e7ab608a45b32d591",
     "commitName": "feat: validacion precio ingresado",
     "commitTimestamp": 1773142261589,
     "testId": 78
+  },
+  {
+    "numPassedTests": 55,
+    "failedTests": 1,
+    "numTotalTests": 56,
+    "timestamp": 1773142278491,
+    "success": false,
+    "testId": 79
+  },
+  {
+    "numPassedTests": 56,
+    "failedTests": 0,
+    "numTotalTests": 56,
+    "timestamp": 1773142305264,
+    "success": true,
+    "testId": 79
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validacion peso ingresado",
+    "commitTimestamp": 1773142324515,
+    "testId": 79
   }
 ]
