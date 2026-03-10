@@ -1368,12 +1368,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5c66f9cd9b43791fd7897944f53d291685668393",
     "author": "dahbner",
     "commit": {
       "date": "2026-03-10T11:04:21.000Z",
       "message": "fix: arreglando presenter para el costo de envio",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/5c66f9cd9b43791fd7897944f53d291685668393"
     },
     "stats": {
       "total": 16,
@@ -1383,6 +1383,25 @@
     },
     "coverage": 98.7,
     "test_count": 48,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Flora",
+    "commit": {
+      "date": "2026-03-10T11:15:48.000Z",
+      "message": "feat: aplicar descuento de 100",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 17,
+      "deletions": 1,
+      "date": "2026-03-10"
+    },
+    "coverage": 98.75,
+    "test_count": 50,
     "failed_tests": 0,
     "conclusion": "success"
   }

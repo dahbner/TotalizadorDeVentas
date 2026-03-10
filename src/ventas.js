@@ -118,6 +118,14 @@ export function calcularCostoEnvioFinal(costoEnvioBase, tipoCliente) {
     return Number((costoEnvioBase - descuento).toFixed(2));
 }
 
+//Descuentos fijos por cliente
+export function calcularDescuentoFijo(precioNeto, tipoCliente, categoria) {
+    if (tipoCliente === "Recurrente" && precioNeto > 3000 && categoria === "Alimentos") {
+        return 100;
+    }
+    return 0;
+}
+
 //Precio total
 export function calcularPrecioTotal(precioNeto, impuesto, descuento, costoEnvio) {
     return precioNeto + impuesto - descuento + costoEnvio;

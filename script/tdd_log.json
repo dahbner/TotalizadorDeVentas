@@ -1400,9 +1400,47 @@
     "testId": 71
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5c66f9cd9b43791fd7897944f53d291685668393",
     "commitName": "fix: arreglando presenter para el costo de envio",
     "commitTimestamp": 1773140662401,
     "testId": 72
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 1,
+    "numTotalTests": 49,
+    "timestamp": 1773141159302,
+    "success": false,
+    "testId": 73
+  },
+  {
+    "numPassedTests": 49,
+    "failedTests": 0,
+    "numTotalTests": 49,
+    "timestamp": 1773141240267,
+    "success": true,
+    "testId": 73
+  },
+  {
+    "numPassedTests": 49,
+    "failedTests": 1,
+    "numTotalTests": 50,
+    "timestamp": 1773141288121,
+    "success": false,
+    "testId": 73
+  },
+  {
+    "numPassedTests": 50,
+    "failedTests": 0,
+    "numTotalTests": 50,
+    "timestamp": 1773141314645,
+    "success": true,
+    "testId": 73
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento de 100",
+    "commitTimestamp": 1773141350296,
+    "testId": 73
   }
 ]

@@ -3,7 +3,7 @@ import {
   mostrarImpuesto, calcularImpuesto, calcularDescuento, mostrarDescuento, 
   calcularPrecioTotal, mostrarImpuestoCategoria, mostrarDescuentoCategoria, 
   mostrarCostoEnvio, calcularCostoEnvio, calcularPrecioConDescuento, 
-  mostrarDescuentoEnvioCliente, calcularCostoEnvioFinal
+  mostrarDescuentoEnvioCliente, calcularCostoEnvioFinal, calcularDescuentoFijo
 } from "./ventas.js";
 
 describe("Totalizador Ventas", () => {
@@ -188,5 +188,13 @@ it("deberia calcular el precio total con descuento e impuesto", () => {
 
   it("deberia calcular el costo de envio final aplicando el descuento del tipo de cliente", () => {
     expect(calcularCostoEnvioFinal(100, "Recurrente")).toEqual(99.5);
+  });
+
+  //Descuentos fijos por cliente
+  it("deberia aplicar descuento fijo de 100 si el cliente es Recurrente, la orden supera 3000 y la categoria es Alimentos", () => {
+  expect(calcularDescuentoFijo(3500, "Recurrente", "Alimentos")).toEqual(100);
+  });
+  it("no deberia aplicar descuento si el cliente es Recurrente pero el precio no supera 3000", () => {
+  expect(calcularDescuentoFijo(2500, "Recurrente", "Alimentos")).toEqual(0);
   });
 });
