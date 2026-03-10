@@ -817,12 +817,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b2d50a1f8a471e3d68f0a777d207a95cdbb08f04",
     "author": "Flora",
     "commit": {
       "date": "2026-03-10T03:38:56.000Z",
       "message": "feat: mostrar porcentaje de descuento",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/b2d50a1f8a471e3d68f0a777d207a95cdbb08f04"
     },
     "stats": {
       "total": 31,
@@ -832,6 +832,25 @@
     },
     "coverage": 100,
     "test_count": 25,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Flora",
+    "commit": {
+      "date": "2026-03-10T03:49:08.000Z",
+      "message": "feat: calcular precio total con impuesto y descuento",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-03-10"
+    },
+    "coverage": 100,
+    "test_count": 26,
     "failed_tests": 0,
     "conclusion": "success"
   }

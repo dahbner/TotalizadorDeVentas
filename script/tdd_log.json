@@ -850,9 +850,47 @@
     "testId": 43
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b2d50a1f8a471e3d68f0a777d207a95cdbb08f04",
     "commitName": "feat: mostrar porcentaje de descuento",
     "commitTimestamp": 1773113938156,
     "testId": 43
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 1,
+    "numTotalTests": 26,
+    "timestamp": 1773114390635,
+    "success": false,
+    "testId": 44
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 1,
+    "numTotalTests": 26,
+    "timestamp": 1773114448630,
+    "success": false,
+    "testId": 44
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 1,
+    "numTotalTests": 26,
+    "timestamp": 1773114477653,
+    "success": false,
+    "testId": 44
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 0,
+    "numTotalTests": 26,
+    "timestamp": 1773114507706,
+    "success": true,
+    "testId": 44
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular precio total con impuesto y descuento",
+    "commitTimestamp": 1773114549627,
+    "testId": 44
   }
 ]

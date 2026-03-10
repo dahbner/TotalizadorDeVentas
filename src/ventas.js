@@ -58,3 +58,8 @@ export function mostrarDescuento(precioNeto) {
     if (precioNeto >= 1000) return 3;
     if(precioNeto < 1000) return 0;        
 }
+
+export function calcularPrecioTotal(precioNeto, impuesto, descuento)
+{
+    return precioNeto + impuesto - descuento;
+}
