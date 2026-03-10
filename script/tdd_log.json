@@ -924,9 +924,31 @@
     "testId": 46
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5e0b78a1868b997d1c00cb695873f852e4146aa8",
     "commitName": "fix: funcion calcularPrecioTotal descontaba doble",
     "commitTimestamp": 1773131802538,
     "testId": 46
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 1,
+    "numTotalTests": 27,
+    "timestamp": 1773133232669,
+    "success": false,
+    "testId": 47
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 0,
+    "numTotalTests": 27,
+    "timestamp": 1773133308782,
+    "success": true,
+    "testId": 47
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar impuesto adicional 7% para la categoria Bebidas Alcoholicas",
+    "commitTimestamp": 1773133474158,
+    "testId": 47
   }
 ]

@@ -874,12 +874,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5e0b78a1868b997d1c00cb695873f852e4146aa8",
     "author": "Flora",
     "commit": {
       "date": "2026-03-10T08:36:41.000Z",
       "message": "fix: funcion calcularPrecioTotal descontaba doble",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/5e0b78a1868b997d1c00cb695873f852e4146aa8"
     },
     "stats": {
       "total": 2,
@@ -889,6 +889,25 @@
     },
     "coverage": 100,
     "test_count": 26,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-10T09:04:32.000Z",
+      "message": "feat: mostrar impuesto adicional 7% para la categoria Bebidas Alcoholicas",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 15,
+      "deletions": 2,
+      "date": "2026-03-10"
+    },
+    "coverage": 98,
+    "test_count": 27,
     "failed_tests": 0,
     "conclusion": "success"
   }

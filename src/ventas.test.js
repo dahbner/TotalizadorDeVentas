@@ -1,4 +1,4 @@
-import {mostrarCantidad, mostrarPrecioNeto, mostrarPrecioUnitario, mostrarImpuesto, calcularImpuesto, calcularDescuento, mostrarDescuento, calcularPrecioTotal} from "./ventas.js";
+import {mostrarCantidad, mostrarPrecioNeto, mostrarPrecioUnitario, mostrarImpuesto, calcularImpuesto, calcularDescuento, mostrarDescuento, calcularPrecioTotal, mostrarImpuestoCategoria} from "./ventas.js";
 
 describe("Totalizador Ventas", () => {
   it("deberia mostrar la cantidad de items ingresada", () => {
@@ -94,5 +94,10 @@ describe("Totalizador Ventas", () => {
   //precio total
   it("deberia calcular el precio total con descuento e impuesto", () => {
     expect(calcularPrecioTotal(60, 3.75, 0)).toEqual(63.75);
+  });
+
+  //Impuesto Adicional
+  it("deberia mostrar 7% de impuesto adicional para Bebidas alcoholicas", () => {
+    expect(mostrarImpuestoCategoria("Bebidas alcoholicas")).toEqual(7);
   });
 });

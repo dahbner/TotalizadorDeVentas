@@ -63,3 +63,11 @@ export function calcularPrecioTotal(precioNeto, impuesto, descuento)
 {
     return precioNeto + impuesto - descuento;
 }
+
+export function mostrarImpuestoCategoria(categoria) {
+    if (categoria === "Bebidas alcoholicas") {
+        return 7;
+    }
+    return 0;
+}
+
