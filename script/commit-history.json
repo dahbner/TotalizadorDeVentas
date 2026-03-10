@@ -855,17 +855,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9af75342e198fccace0444ed9ccd28a37b4375a7",
     "author": "Flora",
     "commit": {
       "date": "2026-03-10T08:32:42.000Z",
       "message": "feat: incremento presenter y html",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/9af75342e198fccace0444ed9ccd28a37b4375a7"
     },
     "stats": {
       "total": 32,
       "additions": 10,
       "deletions": 22,
+      "date": "2026-03-10"
+    },
+    "coverage": 100,
+    "test_count": 26,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Flora",
+    "commit": {
+      "date": "2026-03-10T08:36:41.000Z",
+      "message": "fix: funcion calcularPrecioTotal descontaba doble",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2026-03-10"
     },
     "coverage": 100,

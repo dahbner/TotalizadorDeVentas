@@ -910,9 +910,23 @@
     "testId": 45
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9af75342e198fccace0444ed9ccd28a37b4375a7",
     "commitName": "feat: incremento presenter y html",
     "commitTimestamp": 1773131564235,
     "testId": 45
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 0,
+    "numTotalTests": 26,
+    "timestamp": 1773131720147,
+    "success": true,
+    "testId": 46
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: funcion calcularPrecioTotal descontaba doble",
+    "commitTimestamp": 1773131802538,
+    "testId": 46
   }
 ]
