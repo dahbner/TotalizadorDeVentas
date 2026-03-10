@@ -1372,9 +1372,31 @@
     "testId": 70
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a93531a53c171b67ac10aacb16fe5d5a56503863",
     "commitName": "feat: mostrar 1,5% de descuento en el costo del envio para cliente especial",
     "commitTimestamp": 1773139128839,
     "testId": 70
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 1,
+    "numTotalTests": 48,
+    "timestamp": 1773139712294,
+    "success": false,
+    "testId": 71
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 0,
+    "numTotalTests": 48,
+    "timestamp": 1773139741683,
+    "success": true,
+    "testId": 71
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar el costo de envio final",
+    "commitTimestamp": 1773139768122,
+    "testId": 71
   }
 ]

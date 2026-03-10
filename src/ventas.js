@@ -13,6 +13,7 @@ export function mostrarPrecioNeto(cantidad, precioUnitario)
     return cantidad * precioUnitario;
 }
 
+//Descuentos
 export function mostrarDescuento(precioNeto) {
     if (precioNeto >= 30000) return 15;
     if (precioNeto >= 10000) return 10;
@@ -45,6 +46,11 @@ export function calcularDescuento(precioNeto, categoria) {
     return Number((precioNeto * (porcentajeTotal / 100)).toFixed(2));
 }
 
+export function calcularPrecioConDescuento(precioNeto, descuento) {
+    return precioNeto - descuento;
+}
+
+//Impuestos
 export function mostrarImpuesto(estado){
     if(estado === "CA") return 8.25;
     if(estado === "AL") return 4.00;
@@ -69,6 +75,15 @@ export function mostrarImpuestoCategoria(categoria) {
     return 0;
 }
 
+export function calcularImpuesto(precioConDescuento, estado, categoria) {
+    const porcentajeEstado = mostrarImpuesto(estado);
+    const porcentajeAdicional = mostrarImpuestoCategoria(categoria);
+    const porcentajeTotal = porcentajeEstado + porcentajeAdicional;
+    
+    return Number((precioConDescuento * (porcentajeTotal / 100)).toFixed(2));
+}
+
+//Costo de envio
 export function mostrarCostoEnvio(peso){
     if (peso >= 0 && peso <= 10) return 0;
     if (peso > 10 && peso <= 20) return 3.5;
@@ -79,25 +94,9 @@ export function mostrarCostoEnvio(peso){
     if (peso > 200) return 9;
 }
 
-export function calcularCostoEnvio(peso, cantidad, costoEnvio) {
+export function calcularCostoEnvio(peso, cantidad) {
     const costoUnitario = mostrarCostoEnvio(peso);
     return cantidad * costoUnitario;
-}
-
-export function calcularImpuesto(precioConDescuento, estado, categoria) {
-    const porcentajeEstado = mostrarImpuesto(estado);
-    const porcentajeAdicional = mostrarImpuestoCategoria(categoria);
-    const porcentajeTotal = porcentajeEstado + porcentajeAdicional;
-    
-    return Number((precioConDescuento * (porcentajeTotal / 100)).toFixed(2));
-}
-
-export function calcularPrecioConDescuento(precioNeto, descuento) {
-    return precioNeto - descuento;
-}
-
-export function calcularPrecioTotal(precioNeto, impuesto, descuento, costoEnvio) {
-    return precioNeto + impuesto - descuento + costoEnvio;
 }
 
 export function mostrarDescuentoEnvioCliente(tipoCliente) {
@@ -111,4 +110,15 @@ export function mostrarDescuentoEnvioCliente(tipoCliente) {
         return 1.5;
     }
     return 0;
+}
+
+export function calcularCostoEnvioFinal(costoEnvioBase, tipoCliente) {
+    const porcentaje = mostrarDescuentoEnvioCliente(tipoCliente);
+    const descuento = costoEnvioBase * (porcentaje / 100);
+    return Number((costoEnvioBase - descuento).toFixed(2));
+}
+
+//Precio total
+export function calcularPrecioTotal(precioNeto, impuesto, descuento, costoEnvio) {
+    return precioNeto + impuesto - descuento + costoEnvio;
 }
