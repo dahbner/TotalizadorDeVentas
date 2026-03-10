@@ -1088,9 +1088,31 @@
     "testId": 56
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e961fb506c753490eb2073c82aa93f09483a896c",
     "commitName": "feat: mostrar costo de envio cuando peso esta entre 0 y 10",
     "commitTimestamp": 1773136270554,
     "testId": 56
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 1,
+    "numTotalTests": 37,
+    "timestamp": 1773136311544,
+    "success": false,
+    "testId": 57
+  },
+  {
+    "numPassedTests": 37,
+    "failedTests": 0,
+    "numTotalTests": 37,
+    "timestamp": 1773136328514,
+    "success": true,
+    "testId": 57
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar costo de envio cuando peso esta entre 11 y 20",
+    "commitTimestamp": 1773136342704,
+    "testId": 57
   }
 ]
