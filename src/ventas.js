@@ -29,9 +29,10 @@ export function validarPrecio(precio) {
 }
 
 export function validarPeso(peso) {
-    if (peso < 0) {
+    if (peso < 0 || peso === "") {
         return "Peso invalido";
     }
+    return "";
 }
 
 //Descuentos
