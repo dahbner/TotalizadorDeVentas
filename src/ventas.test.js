@@ -43,6 +43,9 @@ describe("Totalizador Ventas", () => {
   it("deberia calcular el impuesto para UT", () => {
     expect(calcularImpuesto(100, "UT")).toEqual(6.65);
   });
+  it("deberia calcular el impuesto para TX", () => {
+    expect(calcularImpuesto(100, "TX")).toEqual(6.25);
+  });
 
   //Calcular descuentos
   it("deberia calcular 0 de descuento si el precio neto es menor a 1000", () => {

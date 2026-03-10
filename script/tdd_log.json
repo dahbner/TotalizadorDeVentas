@@ -774,9 +774,39 @@
     "testId": 40
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9b9f2e615ec61996bcfe824f839515c52fd79e92",
     "commitName": "feat: mostrar 15% de descuento para el precio mayor o igual a 30000",
     "commitTimestamp": 1773037383274,
     "testId": 41
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1773110806865,
+    "success": true,
+    "testId": 42
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1773111049586,
+    "success": false,
+    "testId": 42
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1773111086555,
+    "success": true,
+    "testId": 42
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: caluclar impuesto TX",
+    "commitTimestamp": 1773111278986,
+    "testId": 42
   }
 ]

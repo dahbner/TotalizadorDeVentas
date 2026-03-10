@@ -26,6 +26,7 @@ export function calcularImpuesto(precioNeto, estado){
     if(estado === "AL") return precioNeto * 0.04;
     if(estado === "NV") return precioNeto * 0.08;
     if(estado === "UT") return precioNeto * 0.0665;
+    if(estado === "TX") return precioNeto * 0.0625;
 }
 
 export function calcularDescuento(precioNeto) {

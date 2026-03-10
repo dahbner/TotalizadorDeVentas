@@ -779,12 +779,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9b9f2e615ec61996bcfe824f839515c52fd79e92",
     "author": "dahbner",
     "commit": {
       "date": "2026-03-09T06:23:02.000Z",
       "message": "feat: mostrar 15% de descuento para el precio mayor o igual a 30000",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/9b9f2e615ec61996bcfe824f839515c52fd79e92"
     },
     "stats": {
       "total": 4,
@@ -794,6 +794,25 @@
     },
     "coverage": 100,
     "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Flora",
+    "commit": {
+      "date": "2026-03-10T02:54:37.000Z",
+      "message": "feat: caluclar impuesto TX",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-03-10"
+    },
+    "coverage": 100,
+    "test_count": 19,
     "failed_tests": 0,
     "conclusion": "success"
   }
