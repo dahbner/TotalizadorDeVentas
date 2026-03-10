@@ -1394,9 +1394,15 @@
     "testId": 71
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4243a7b2d44eff6ab42d6421f72385e290dfa4ef",
     "commitName": "feat: mostrar el costo de envio final",
     "commitTimestamp": 1773139768122,
     "testId": 71
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: arreglando presenter para el costo de envio",
+    "commitTimestamp": 1773140662401,
+    "testId": 72
   }
 ]
