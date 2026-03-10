@@ -84,5 +84,9 @@ export function mostrarDescuentoCategoria(categoria) {
     if (categoria === "Alimentos") {
         return 2;
     }
+
+    if (categoria === "Material de escritorio") {
+        return 1.5;
+    }
     return 0;
 }

@@ -1002,9 +1002,23 @@
     "testId": 51
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f2a71a251dd18328efdb54f47f7849b4c6ea6b24",
     "commitName": "feat: mostrar descuento adicional 2% para la categoria Alimentos",
     "commitTimestamp": 1773134141580,
     "testId": 51
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 0,
+    "numTotalTests": 32,
+    "timestamp": 1773134209315,
+    "success": true,
+    "testId": 52
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar descuento adicional 1,5% para la categoria Material de Escritorio",
+    "commitTimestamp": 1773134230769,
+    "testId": 52
   }
 ]
