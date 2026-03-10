@@ -912,12 +912,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f32b631ca6caf3c757ceeaf2f8abfcb987b60ed6",
     "author": "dahbner",
     "commit": {
       "date": "2026-03-10T09:06:45.000Z",
       "message": "feat: mostrar impuesto adicional 3% para la categoria Muebles",
-      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/f32b631ca6caf3c757ceeaf2f8abfcb987b60ed6"
     },
     "stats": {
       "total": 8,
@@ -927,6 +927,25 @@
     },
     "coverage": 98.08,
     "test_count": 28,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "dahbner",
+    "commit": {
+      "date": "2026-03-10T09:09:56.000Z",
+      "message": "feat: mostrar impuesto adicional 4% para la categoria Electronicos",
+      "url": "https://github.com/dahbner/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-03-10"
+    },
+    "coverage": 98.15,
+    "test_count": 29,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -104,4 +104,8 @@ describe("Totalizador Ventas", () => {
   it("deberia mostrar 3% de impuesto adicional para Muebles", () => {
     expect(mostrarImpuestoCategoria("Muebles")).toEqual(3);
   });
+
+  it("deberia mostrar 4% de impuesto adicional para Electronicos", () => {
+    expect(mostrarImpuestoCategoria("Electronicos")).toEqual(4);
+  });
 });

@@ -960,9 +960,23 @@
     "testId": 48
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f32b631ca6caf3c757ceeaf2f8abfcb987b60ed6",
     "commitName": "feat: mostrar impuesto adicional 3% para la categoria Muebles",
     "commitTimestamp": 1773133606805,
     "testId": 48
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 0,
+    "numTotalTests": 29,
+    "timestamp": 1773133770929,
+    "success": true,
+    "testId": 49
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar impuesto adicional 4% para la categoria Electronicos",
+    "commitTimestamp": 1773133797325,
+    "testId": 49
   }
 ]

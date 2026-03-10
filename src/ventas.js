@@ -71,5 +71,8 @@ export function mostrarImpuestoCategoria(categoria) {
     if (categoria === "Muebles") {
         return 3;
     }
+    if (categoria === "Electronicos") {
+        return 4;
+    }
     return 0;
 }
