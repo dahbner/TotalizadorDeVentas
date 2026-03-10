@@ -3,6 +3,7 @@ import { mostrarCantidad, mostrarPrecioUnitario, mostrarPrecioNeto, calcularImpu
 const cantidadInput = document.querySelector("#cantidad");
 const precioInput = document.querySelector("#precio");
 const estadoInput = document.querySelector("#estado");
+const categoriaInput = document.querySelector("#categoria");
 const botonTotalizar = document.querySelector("#btn-j1");
 const divResultado = document.querySelector("#resultado");
 
@@ -10,6 +11,7 @@ botonTotalizar.addEventListener("click", () => {
     const cantidad = Number(cantidadInput.value);
     const precio = Number(precioInput.value);
     const estado = estadoInput.value;
+    const categoria = categoriaInput.value;
 
     const cantidadValidada = mostrarCantidad(cantidad);
     const precioValidado = mostrarPrecioUnitario(precio);
@@ -26,6 +28,7 @@ botonTotalizar.addEventListener("click", () => {
     const total = calcularPrecioTotal(precioNeto, impuesto, descuento);
 
     divResultado.innerHTML = `
+        <p>Categoría: ${categoria}</p>
         <p>Precio neto (${cantidadValidada}*$${precioValidado}): $${precioNeto}</p>
         <p>Descuento (${porcentajeDescuento}%): $${descuento.toFixed(2)}</p>
         <p>Impuesto para ${estado} (${porcentajeImpuesto}%): $${impuesto.toFixed(2)}</p>
